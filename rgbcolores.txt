@@ -1,0 +1,31 @@
+🎨 Paleta sugerida: 
+
+    Rosa empolvado (soft pink): #F4C2C2 → ideal para fondos suaves o detalles sutiles.
+
+    Lavanda suave: #C8A2C8 → para resaltar secciones o títulos sin ser agresiva.
+
+    Blanco perla: #FAF9F6 → fondo general para dar limpieza y elegancia.
+
+    Azul grisáceo claro (calm blue): #A8C3D7 → para botones o llamadas a la acción suaves.
+
+    Violeta profundo (acento): #6A0DAD → para titulares, links activos o detalles con fuerza visual.
+
+También podés usar un gris muy claro como #EDEDED para separar bloques o backgrounds secundarios sin romper la armonía.
+
+Color	Código	Uso sugerido
+Rosa empolvado	#F4C2C2	Color principal de fondo suave o acentos como botones, íconos, bordes. Transmite calidez y dulzura.
+Lavanda suave	#C8A2C8	Títulos secundarios, fondos de secciones destacadas (como promociones o beneficios). Elegante y etéreo.
+Blanco perla	#FAF9F6	Fondo general del sitio. Hace que todo luzca limpio, ordenado y con mucho aire visual.
+Azul calmado	#A8C3D7	Links, estados activos o detalles sutiles. Transmite paz y contraste sin perder suavidad.
+Violeta profundo	#6A0DAD	Para llamadas a la acción, ítems importantes o títulos principales. Da fuerza y contraste.
+Gris claro	#EDEDED	Bordes, separadores o fondos alternos muy sutiles para no saturar con tanto color.
+
+💡 Tips extra:
+
+    Usá blanco perla como base para que todo respire.
+
+    Elegí lavanda y rosa para destacar bloques de contenido.
+
+    Reservá el violeta para elementos que querés que llamen más la atención (ej. botones tipo “comprar”, “ver más”).
+
+    Evitá poner todos juntos. Usalos con criterio para no recargar.

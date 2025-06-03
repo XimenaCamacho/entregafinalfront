@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Etérea</title>
+</head>
+<body>
+    <main class="form"> 
+        <section class="form__layout form__layout-register">
+            <!-- register -->
+            <article class="form__panel">
+                <div class="form__content"> 
+                    <h2>Bienvenido</h2>
+                    <p>Si ya tenes una cuenta inicia sesión con tus datos.</p>
+                    <input type="button" value="Iniciar sesión" id="sign-in">
+                </div>
+            </article>
+            <article class="form__panel-register"> <!-- form-information -->
+                <div class="form__register-panel"> <!-- form-information-childs-->
+                    <h2>Crear una cuenta</h2>
+                    <div class="form__social-icons">
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <p>o resgitrtate con tu email</p>
+                    <form class="form__form" action="" method="post">
+                        <label class="form__field">
+                            <i class="form__icon fa-regular fa-user"></i>
+                            <input type="text" placeholder="Nombre usuario" name="userName">
+                        </label>
+                        <label class="form__field">
+                            <i class="form__icon fa-regular fa-envelope"></i>
+                            <input type="email" placeholder="Correo electrónico" name="email">
+                        </label>
+                        <label class="form__field">
+                            <i class="form__icon fa-solid fa-key"></i>
+                            <input type="password" placeholder="Contraseña" name="password">
+                        </label>
+                        <input type="submit" value="Registrarse" class="form__submit">
+                    </form>
+                </div>
+            </article>
+        </section>
+        <!-- Seccion de login -->
+        <section class="form__layout form__layout-hide form__layout-login">
+            <article class="form__panel">
+                <div class="form__content">
+                    <h2>Bienvenido nuevamente</h2>
+                    <p>Si no tenés cuenta, por favor resgitrate con tus datos acá</p>
+                    <input type="button" value="Registrarse" id="sign-up">
+                </div>
+            </article>
+            <article class="form__panel-register">
+                <div class="form__register-panel">
+                    <h2>Iniciar sesión</h2>
+                    <div class="form__social-icons">
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <p>o inicia sesión con tu email</p>
+                    <form class="form__form" action="" method="post">
+                        <label class="form__field">
+                            <i class="form__icon fa-regular fa-envelope"></i>
+                            <input type="email" placeholder="Correo electrónico" name="email">
+                        </label>
+                        <label class="form__field">
+                            <i class="form__icon fa-solid fa-key"></i>
+                            <input type="password" placeholder="Contraseña" name="password">
+                        </label>
+                        <input type="submit" value="Iniciar sesión" class="form__submit">
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="./js/loginRegisterScript.js"></script>
+</body>
+
+</html>

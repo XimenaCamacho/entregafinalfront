@@ -1,0 +1,7 @@
+.banner {
+    background-color: rgba(230, 179, 255, 0.3);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

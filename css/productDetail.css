@@ -1,0 +1,113 @@
+.layout__detail {
+    padding: 6rem 0;
+}
+.product-detail__container {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.product-detail__image-wrapper {
+    width: 55%;
+}
+.product-detail__image-wrapper img {
+    width: 90%;
+}
+.product-detail__info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.product-detail__values {
+    display: inline-flex;
+    margin: 2rem 0;
+    align-items: center;
+}
+.product-detail__values p:nth-child(1) {
+    font-size: 1.5em;
+}
+.product-detail__values p:nth-child(2) {
+    margin-left: 2.5rem;
+}
+.product-detail__payment-methods div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.product-detail__payment-methods i {
+    margin-left: 0.7em;   
+}
+.product-detail__payment-methods p {
+    font-size: 0.8em;
+}
+.product-detail__buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 3.5rem 0;
+}
+.quantity {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #d4a5ec;
+    border-radius: 0.3rem;
+    padding: 5px;
+    font-family: sans-serif;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    user-select: none;
+}
+.quantity__btn {
+    background: none;
+    border: none;
+    width: 1rem;
+    cursor: pointer;
+    font-weight: bolder;  
+}
+.quantity__number {
+    margin: 0 5px;
+    min-width: 1rem;
+    text-align: center;
+}
+.quantity__btn:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+.product-detail__button {
+    background-color: #d4a5ec;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 7rem;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.product-detail__button:hover {
+    background-color:rgba(255, 255, 255, 0.6);
+    color: #79508a;
+    transition: all 0.4s ease;
+}
+.fa-heart {
+    font-size: 2.5em;
+    color: #d4a5ec;
+    cursor: pointer;
+}
+.tooltip-container {
+    background: none;
+    border: none;
+}
+.product-detail__description {
+    padding: 0.75rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border: 1px rgba(121, 80, 138, 0.4) solid;
+    border-bottom: none;
+}
+.product-detail__description h4{
+    margin-bottom: 1.2rem;
+}

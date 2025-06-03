@@ -1,0 +1,41 @@
+.error-message {
+    width: 70%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.error-message__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.error-message__text h1 {
+    font-size: 3.5em;
+}
+.error-message__text h2 {
+    margin-top: 20px;
+}
+.error-message img {
+    width: 40%;
+}
+.error-message a {
+    margin-top: 40px;
+    width: 50%;
+    align-self: center;
+    padding: 10px;
+    margin: 30px 0 15px;
+    background: rgba(212, 165, 236, 0.41);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+.error-message a:hover {
+    background: rgba(212, 165, 236, 0.61);
+}

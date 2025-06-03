@@ -1,0 +1,107 @@
+.cart {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+.cart__title {
+    font-size: 1.5em;
+    margin: 32px 35px 24px;
+}
+.cart__container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+.cart__item {
+    display: grid;
+    grid-template-columns: 120px 600px 120px 120px 80px;
+    gap: 0.5em;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.cart__item-image {
+    width: 120px;
+}
+.cart__item-name {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+.cart__item-pricing {
+    margin-left: 25px;
+}
+.cart__item-pricing div {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.cart__item-quantity {
+    display: flex;
+    justify-content: center;
+}
+.cart__item-quantity input {
+    width: 60px;
+    padding: 3px 0 3px 9px ;
+}
+.cart__item-remove {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.cart__item-remove img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.cart__item-remove img:hover {
+    transform: rotate(-10deg) scale(1.1);
+    filter: brightness(1.2);
+}
+.cart__summary {
+    width: 20%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15em;
+}
+.cart__summary-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart__summary-row:nth-child(1){
+    padding-top: 15px;
+}
+.cart__summary-row:nth-child(2){
+    padding-top: 25px;
+}
+.cart__summary-row:nth-child(3){
+    border-top: 1px solid rgba(0,0,0,0.3);
+    margin-top: 55px;
+    padding-top: 15px;
+}
+.cart__summary-buy {
+    width: 100%;
+    margin-top: 60px;
+    padding: 10px;
+    align-self: center;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(105, 182, 105);
+    color: rgb(71, 71, 71);
+}
+.cart__summary-buy:hover {
+    background-color: rgb(48, 168, 48);
+    color: black;
+}
