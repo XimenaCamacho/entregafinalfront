@@ -5,7 +5,9 @@ export async function renderList() {
   const category = params.get("category");
 
   try {
-    const products = await fetchData("../data/articles.json");
+    const products = await fetchData(
+      "https://ximenacamacho.github.io/entregafinalfront/data/articles.json"
+    );
 
     const filtered = products.filter(
       (product) => product.category === category

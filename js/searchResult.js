@@ -1,54 +1,11 @@
-// import { fetchData } from "./fetchData.js"; // ajustá el path si es necesario
-
-// export async function renderSearchResults() {
-//   const searchParams = new URLSearchParams(window.location.search);
-//   const searchTerm = searchParams.get("search")?.trim().toLowerCase();
-
-//   const queryLabel = document.getElementById("search-query");
-//   const resultsContainer = document.getElementById("search-results-container");
-//   const jsonPath = "./data/articles.json"; // ajustá la ruta si estás en otra carpeta
-
-//   queryLabel.textContent = searchTerm || "—";
-
-//   if (!searchTerm) {
-//     resultsContainer.innerHTML = `<p>No se recibió ninguna búsqueda 😕</p>`;
-//     return;
-//   }
-
-//   try {
-//     const products = await fetchData(jsonPath);
-//     const matchList = products.filter((product) => {
-//       const fullText = `${product.name} ${
-//         product.description
-//       } ${product.tags?.join(" ")}`.toLowerCase();
-//       return fullText.includes(searchTerm);
-//     });
-
-//     resultsContainer.innerHTML = matchList.length
-//       ? matchList
-//           .map(
-//             (product) => `
-//           <a href="./productDetail.html?id=${product.id}" >
-//             <img src="${product.image}" alt="${product.name}" class="search-result__image" />
-//             <div class="search-result__info">
-//               <h3 class="search-result__name">${product.name}</h3>
-//             </div>
-//           </a>
-//         `
-//           )
-//           .join("")
-//       : `<p>No se encontraron productos para "<strong>${searchTerm}</strong>" 😞</p>`;
-//   } catch (err) {
-//     resultsContainer.innerHTML = `<p>Error técnico: ${err.message}</p>`;
-//   }
-// }
 import { fetchData } from "./fetchData.js";
 
 export async function renderSearchResults() {
   const searchTerm = getSearchTerm();
   const queryLabel = document.getElementById("search-query");
   const resultsContainer = document.getElementById("search-results-container");
-  const jsonPath = "./data/articles.json";
+  const jsonPath =
+    "https://ximenacamacho.github.io/entregafinalfront/data/articles.json";
 
   queryLabel.textContent = searchTerm || "—";
 
@@ -73,10 +30,6 @@ export async function renderSearchResults() {
     renderMessage(`Error técnico: ${err.message}`, resultsContainer);
   }
 }
-
-// ------------------
-// FUNCIONES AUXILIARES
-// ------------------
 
 function getSearchTerm() {
   const params = new URLSearchParams(window.location.search);

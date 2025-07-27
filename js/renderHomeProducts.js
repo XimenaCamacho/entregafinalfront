@@ -2,7 +2,9 @@ import { fetchData } from "./fetchData.js";
 
 export async function renderHomeProducts() {
   try {
-    const products = await fetchData("../data/articles.json");
+    const products = await fetchData(
+      "https://ximenacamacho.github.io/entregafinalfront/data/articles.json"
+    );
 
     // Categorías que querés mostrar y la clase CSS correspondiente para el contenedor
     const categories = [

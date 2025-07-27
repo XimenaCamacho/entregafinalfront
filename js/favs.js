@@ -1,83 +1,3 @@
-// export function toggleFavorite(id, product) {
-//   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-
-//   const exists = favorites.some((fav) => fav.id.toString() === id.toString());
-
-//   if (exists) {
-//     favorites = favorites.filter((fav) => fav.id.toString() !== id.toString());
-//     showTooltip("Eliminado de favoritos");
-//   } else {
-//     favorites.push(product);
-//     showTooltip("Agregado a favoritos");
-//   }
-
-//   localStorage.setItem("favorites", JSON.stringify(favorites));
-
-//   console.log("Favoritos actuales en storage:", favorites);
-//   updateHeartIcon(id);
-// }
-
-// export function isFavorite(id) {
-//   const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-//   return favorites.some((fav) => fav.id.toString() === id.toString());
-// }
-
-// export function updateHeartIcon(id) {
-//   const heartIcon = document.querySelector("#favBtn i");
-//   const tooltip = document.querySelector("#favBtn .tooltip");
-
-//   if (!heartIcon || !tooltip) return;
-
-//   if (isFavorite(id)) {
-//     heartIcon.classList.remove("fa-regular");
-//     heartIcon.classList.add("fa-solid");
-//     tooltip.textContent = "Quitar de favoritos";
-//   } else {
-//     heartIcon.classList.remove("fa-solid");
-//     heartIcon.classList.add("fa-regular");
-//     tooltip.textContent = "Agregar a favoritos";
-//   }
-// }
-
-// function showTooltip(text) {
-//   const tooltip = document.querySelector("#favBtn .tooltip");
-//   if (!tooltip) return;
-
-//   tooltip.textContent = text;
-//   tooltip.classList.add("tooltip--visible");
-
-//   setTimeout(() => {
-//     tooltip.classList.remove("tooltip--visible");
-//     updateHeartIconFromDOM();
-//   }, 1000);
-// }
-
-// function updateHeartIconFromDOM() {
-//   const id = new URLSearchParams(window.location.search).get("id");
-//   if (id) updateHeartIcon(id);
-// }
-
-// // ⭐ LLAMÁ ESTA FUNCIÓN DESDE EL MAIN
-// export async function handleFavorites() {
-//   const id = new URLSearchParams(window.location.search).get("id");
-//   if (!id) return;
-
-//   const products = await fetch("../data/articles.json").then((res) =>
-//     res.json()
-//   );
-//   const product = products.find((p) => p.id?.toString() === id);
-//   if (!product) return;
-
-//   const heartBtn = document.querySelector("#favBtn");
-//   if (!heartBtn) return;
-
-//   updateHeartIcon(product.id);
-
-//   heartBtn.addEventListener("click", () => {
-//     toggleFavorite(product.id, product);
-//   });
-// }
-// Agregar o quitar favorito
 export function toggleFavorite(id, product) {
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
@@ -145,9 +65,9 @@ export async function handleFavorites() {
   const id = new URLSearchParams(window.location.search).get("id");
   if (!id) return;
 
-  const products = await fetch("../data/articles.json").then((res) =>
-    res.json()
-  );
+  const products = await fetch(
+    "https://ximenacamacho.github.io/entregafinalfront/data/articles.json"
+  ).then((res) => res.json());
   const product = products.find((p) => p.id?.toString() === id);
   if (!product) return;
 
