@@ -1,255 +1,394 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/login.css">
-    <link rel="stylesheet" href="./css/productDetail.css">
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/productDetail.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>Etérea</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <a href="./index.html">
-                <img src="./images/logo.png" alt="Logo de Etérea con estilo etéreo y floral" />
-            </a>
-        </div>
-        <form class="search__bar" action="#" method="get">
-            <input type="text" name="#" id="#" class="search__input" placeholder="Busca el producto que deseas..." />
-            <button type="submit" class="search__button">
-                <svg fill="currentColor" stroke="currentColor" stroke-width="10" viewBox="0 0 632 632"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M255.108,0C119.863,0,10.204,109.66,10.204,244.904c0,135.245,109.659,244.905,244.904,244.905c52.006,0,100.238-16.223,139.883-43.854l185.205,185.176c1.671,1.672,4.379,1.672,5.964,0.115l34.892-34.891c1.613-1.613,1.47-4.379-0.115-5.965L438.151,407.605c38.493-43.246,61.86-100.237,61.86-162.702C500.012,109.66,390.353,0,255.108,0z M255.108,460.996c-119.34,0-216.092-96.752-216.092-216.092c0-119.34,96.751-216.091,216.092-216.091s216.091,96.751,216.091,216.091C471.199,364.244,374.448,460.996,255.108,460.996z" />
-                </svg>
-            </button>
-        </form>
-        <nav class="header__nav">
-            <ul>
-                <li class="tooltip-container">
-                    <a href="./index.html">
-                        <svg class="header__icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" stroke="currentColor" stroke-width="3"
-                                d="M127.12,60.22,115.46,48.56h0L69,2.05a7,7,0,0,0-9.9,0L12.57,48.53h0L.88,60.22a3,3,0,0,0,4.24,4.24l6.57-6.57V121a7,7,0,0,0,7,7H46a7,7,0,0,0,7-7V81a1,1,0,0,1,1-1H74a1,1,0,0,1,1,1v40a7,7,0,0,0,7,7h27.34a7,7,0,0,0,7-7V57.92l6.54,6.54a3,3,0,0,0,4.24-4.24ZM110.34,121a1,1,0,0,1-1,1H82a1,1,0,0,1-1-1V81a7,7,0,0,0-7-7H54a7,7,0,0,0-7,7v40a1,1,0,0,1-1,1H18.69a1,1,0,0,1-1-1V51.9L63.29,6.29a1,1,0,0,1,1.41,0l45.63,45.63Z" />
-                        </svg>
-                        <span class="tooltip">Inicio</span>
-                    </a>
-                </li>
-                <li class="tooltip-container">
-                    <a href="#" id="loginBtn">
-                        <svg class="header__icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" stroke="currentColor" stroke-width="3"
-                                d="M222,327.8a11.34,11.34,0,0,0,16,16L318.86,263h0a11.35,11.35,0,0,0,0-16h0l-80.81-80.82a11.34,11.34,0,0,0-16,16l61.47,61.46H63.9a11.34,11.34,0,0,0,0,22.68H283.47Z" />
-                            <path fill="currentColor" stroke="currentColor" stroke-width="3"
-                                d="M372.84,59.53H184.26a45.7,45.7,0,0,0-45.64,45.65V151.3a11.34,11.34,0,0,0,22.67,0V105.18a23,23,0,0,1,23-23H372.84a23,23,0,0,1,23,23V407a23,23,0,0,1-23,23H184.26a23,23,0,0,1-23-23v-45a11.34,11.34,0,1,0-22.67,0v45a45.7,45.7,0,0,0,45.64,45.65H372.84A45.7,45.7,0,0,0,418.49,407V105.18A45.7,45.7,0,0,0,372.84,59.53Z" />
-                        </svg>
-                        <span class="tooltip">Mi cuenta - Registro</span>
-                    </a>
-                </li>
-                <li class="tooltip-container">
-                    <a href="./cart.html">
-                        <svg class="header__icon" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" stroke="currentColor" stroke-width="1"
-                                d="M11.5 7h7c.277 0 .5.223.5.5s-.223.5-.5.5h-7c-.277 0-.5-.223-.5-.5s.223-.5.5-.5zm-7 0c-.824 0-1.422.694-1.498 1.45l-2 20C.914 29.33 1.676 30 2.5 30h25c.824 0 1.586-.672 1.498-1.55l-2-20C26.922 7.695 26.324 7 25.5 7h-3c-.67 0-.65 1 0 1h3c.284 0 .467.204.502.55l2 20c.023.225-.218.45-.502.45h-25c-.284 0-.525-.225-.502-.45l2-20c.035-.346.218-.55.502-.55h3c.67 0 .654-1 0-1zM15 0c-3.308 0-6 2.692-6 6v4.5c0 .665 1 .665 1 0V6c0-2.767 2.233-5 5-5s5 2.233 5 5v4.5c0 .665 1 .657 1 0V6c0-3.308-2.692-6-6-6z" />
-                        </svg>
-                        <span class="tooltip">Mis compras</span>
-                    </a>
-                </li>
-                <li class="tooltip-container">
-                    <a href="./error.html">
-                        <img class="header__icon" src="./images/icon/corazon1.svg"
-                            alt="icono de un corazon que lleva a los favoritos del cliente">
-                        <span class="tooltip">Mis favoritos</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="layout__detail">
-        <article class="product-detail__container">
-            <div class="product-detail__image-wrapper">
-                <img src="./images/products/set baño/set3.webp" alt="Anillo de ejemplo" class="product-detail__image">
-            </div>
-            <div class="product-detail__info">
-                <h2>Nombre producto</h2>
-                <div class="product-detail__values">
-                    <p>$ 000.00</p>
-                    <p>-0% <i>desc</i></p>
-                </div>
+      <div class="header__logo">
+        <a href="./index.html">
+          <img
+            src="./images/logo.png"
+            alt="Logo de Etérea con estilo etéreo y floral"
+          />
+        </a>
+      </div>
+      <form class="search__bar" action="#" method="get">
+        <input
+          type="text"
+          name="search"
+          id="searchInput"
+          class="search__input"
+          placeholder="Busca el producto que deseas..."
+        />
+        <button type="submit" class="search__button" aria-label="Buscar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
 
-                <div class="product-detail__buttons">
-                    <div class="quantity">
-                        <button class="quantity__btn" id="minus">-</button>
-                        <span class="quantity__number" id="number">1</span>
-                        <button class="quantity__btn" id="plus">+</button>
-                    </div>
-                    <button class="product-detail__button">Agregar al carrito</button>
-                    <button class="tooltip-container" aria-label="Agregar a favoritos">
-                        <i class="fa-regular fa-heart" aria-hidden="true"></i>
-                        <span class="tooltip" role="tooltip">Agregar a favoritos</span>
-                    </button>
-                    <!-- <button class="tooltip-container" aria-label="Quitar de favoritos">
-                        <i class="fa-solid fa-heart" aria-hidden="true"></i> 
-                        <span class="tooltip" role="tooltip">Quitar de favoritos</span>
-                    </button> -->
-                </div>
-                <div class="product-detail__payment-methods">
-                    <div>
-                        <p>Hasta 6 cuotas sin interes con </p>
-                        <i class="fa-brands fa-cc-visa"></i>
-                        <i class="fa-brands fa-cc-mastercard"></i>
-                        <i class="fa-solid fa-credit-card"></i>
-                    </div>
-                    <p>10% descuento con transferencia bancaria</p>
-                </div>
-                <div class="product-detail__description">
-                    <h4>Detalles del producto</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, neque expedita incidunt
-                        modi
-                        vero aspernatur tenetur corrupti minus eveniet aliquam recusandae, asperiores odio veniam, nobis
-                        architecto nesciunt! Earum, omnis impedit!
-                    </p>
-                </div>
-            </div>
-        </article>
-    </main>
-    <footer class="footer">
-        <div class="footer__logo">
+      <div class="toggle-wrap" onclick="toggleMenu(this)">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </div>
+      <nav class="header__nav desktop-menu">
+        <ul>
+          <li class="tooltip-container">
             <a href="./index.html">
-                <img src="./images/logo.png" alt="Logo de Etérea con estilo etéreo y floral" />
+              <svg
+                class="header__icon"
+                viewBox="0 0 128 128"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  d="M127.12,60.22,115.46,48.56h0L69,2.05a7,7,0,0,0-9.9,0L12.57,48.53h0L.88,60.22a3,3,0,0,0,4.24,4.24l6.57-6.57V121a7,7,0,0,0,7,7H46a7,7,0,0,0,7-7V81a1,1,0,0,1,1-1H74a1,1,0,0,1,1,1v40a7,7,0,0,0,7,7h27.34a7,7,0,0,0,7-7V57.92l6.54,6.54a3,3,0,0,0,4.24-4.24ZM110.34,121a1,1,0,0,1-1,1H82a1,1,0,0,1-1-1V81a7,7,0,0,0-7-7H54a7,7,0,0,0-7,7v40a1,1,0,0,1-1,1H18.69a1,1,0,0,1-1-1V51.9L63.29,6.29a1,1,0,0,1,1.41,0l45.63,45.63Z"
+                />
+              </svg>
+              <span class="tooltip">Inicio</span>
             </a>
-            <p>Armonía y bienestar en cada detalle</p>
+          </li>
+          <li class="tooltip-container">
+            <a href="#" id="loginBtn">
+              <svg
+                class="header__icon"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  d="M222,327.8a11.34,11.34,0,0,0,16,16L318.86,263h0a11.35,11.35,0,0,0,0-16h0l-80.81-80.82a11.34,11.34,0,0,0-16,16l61.47,61.46H63.9a11.34,11.34,0,0,0,0,22.68H283.47Z"
+                />
+                <path
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  d="M372.84,59.53H184.26a45.7,45.7,0,0,0-45.64,45.65V151.3a11.34,11.34,0,0,0,22.67,0V105.18a23,23,0,0,1,23-23H372.84a23,23,0,0,1,23,23V407a23,23,0,0,1-23,23H184.26a23,23,0,0,1-23-23v-45a11.34,11.34,0,1,0-22.67,0v45a45.7,45.7,0,0,0,45.64,45.65H372.84A45.7,45.7,0,0,0,418.49,407V105.18A45.7,45.7,0,0,0,372.84,59.53Z"
+                />
+              </svg>
+              <span class="tooltip">Mi cuenta - Registro</span>
+            </a>
+          </li>
+          <li class="tooltip-container">
+            <a href="./cart.html">
+              <svg
+                class="header__icon"
+                viewBox="0 0 30 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  d="M11.5 7h7c.277 0 .5.223.5.5s-.223.5-.5.5h-7c-.277 0-.5-.223-.5-.5s.223-.5.5-.5zm-7 0c-.824 0-1.422.694-1.498 1.45l-2 20C.914 29.33 1.676 30 2.5 30h25c.824 0 1.586-.672 1.498-1.55l-2-20C26.922 7.695 26.324 7 25.5 7h-3c-.67 0-.65 1 0 1h3c.284 0 .467.204.502.55l2 20c.023.225-.218.45-.502.45h-25c-.284 0-.525-.225-.502-.45l2-20c.035-.346.218-.55.502-.55h3c.67 0 .654-1 0-1zM15 0c-3.308 0-6 2.692-6 6v4.5c0 .665 1 .665 1 0V6c0-2.767 2.233-5 5-5s5 2.233 5 5v4.5c0 .665 1 .657 1 0V6c0-3.308-2.692-6-6-6z"
+                />
+              </svg>
+              <span class="tooltip">Mis compras</span>
+              <span class="header__cart-count">0</span>
+            </a>
+          </li>
+          <li class="tooltip-container">
+            <a href="./favorites.html">
+              <img
+                class="header__icon"
+                src="./images/icon/corazon1.svg"
+                alt="icono de un corazon que lleva a los favoritos del cliente"
+              />
+              <span class="tooltip">Mis favoritos</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="category-menu">
+      <ul class="category-menu__list">
+        <li><a href="./productList.html?category=fuentes">Fuentes</a></li>
+        <li><a href="./productList.html?category=decoracion">Decoración</a></li>
+        <li><a href="./productList.html?category=piedras">Piedras</a></li>
+        <li><a href="./productList.html?category=bijouterie">Bijouterie</a></li>
+        <li><a href="./productList.html?category=aromas">Aromas</a></li>
+      </ul>
+    </aside>
+    <!-- Menú hamburguesa para móviles -->
+    <aside class="mobile-menu">
+      <a href="./index.html">Inicio</a>
+      <a href="#">Mi cuenta</a>
+      <a href="./cart.html">Mis compras</a>
+      <a href="./favorites.html">Favoritos</a>
+    </aside>
+    <main class="layout__detail product-detail">
+      <article class="product-detail__container">
+        <div class="product-detail__image-wrapper">
+          <img
+            src="./images/products/set baño/set3.webp"
+            alt="Anillo de ejemplo"
+            class="product-detail__image"
+          />
         </div>
-        <div class="footer__content">
-            <div class="footer__contact">
-                <h3>Contacto</h3>
-                <p class="email">email@ejemplo.com</p>
-                <p class="phone">1234 5678</p>
-                <p class="cellphone">+54 9 11 1234 5678</p>
+        <div class="product-detail__info">
+          <h2>Nombre producto</h2>
+          <div class="product-detail__values">
+            <p>$ 000.00</p>
+            <p>-0% <i>desc</i></p>
+          </div>
+
+          <div class="product-detail__buttons">
+            <div class="quantity">
+              <button class="quantity__btn" id="minus">-</button>
+              <span class="quantity__number" id="number">1</span>
+              <button class="quantity__btn" id="plus">+</button>
             </div>
-            <div class="footer__media--content">
-                <nav class="footer__media--nav" aria-label="Redes sociales">
-                    <h3>Seguinos en nuestras redes</h3>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img
-                                    src="./images/icon/face2.svg" alt="Redirección a nuestra página de Facebook"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img
-                                    src="./images/icon/insta2.svg" alt="Redirección a nuestra página de Instagram"></a>
-                        </li>
-                        <li>
-                            <a href="https://x.com" target="_blank" rel="noopener noreferrer"><img
-                                    src="./images/icon/twitter3.svg" alt="Redirección a nuestra página de X"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer"><img
-                                    src="./images/icon/tiktok1.svg" alt="Redirección a nuestra página de TikTok"></a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="newsletter-invite" aria-label="Invitación a suscribirse al newsletter">
-                    <a href="./error.html">Unite a nuestra comunidad para recibir novedades y tips exclusivos</a>
-                </div>
+            <button class="product-detail__button" id="addToCart">
+              Agregar al carrito
+            </button>
+            <button
+              id="favBtn"
+              class="tooltip-container"
+              aria-label="Agregar a favoritos"
+            >
+              <i class="fa-regular fa-heart" aria-hidden="true"></i>
+              <span class="tooltip" role="tooltip">Agregar a favoritos</span>
+            </button>
+          </div>
+          <div class="product-detail__payment-methods">
+            <div>
+              <p>Hasta 6 cuotas sin interes con</p>
+              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <i class="fa-solid fa-credit-card"></i>
             </div>
-            <nav class="footer__legal">
-                <h3>Información legal</h3>
-                <ul>
-                    <li><a href="./error.html">Política de privacidad</a></li>
-                    <li><a href="./error.html">Términos y condiciones</a></li>
-                    <li><a href="./error.html">Aviso legal</a></li>
-                </ul>
-            </nav>
+            <p>10% descuento con transferencia bancaria</p>
+          </div>
+          <div class="product-detail__description">
+            <h4>Detalles del producto</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, neque expedita incidunt modi vero aspernatur tenetur
+              corrupti minus eveniet aliquam recusandae, asperiores odio veniam,
+              nobis architecto nesciunt! Earum, omnis impedit!
+            </p>
+          </div>
         </div>
-        <p class="footer__text">
-            &copy; 2025 Etérea - Todos los derechos reservados.
-        </p>
+      </article>
+    </main>
+    <div class="modal modal--hidden" id="cartModal">
+      <div class="modal__content">
+        <p>¡Producto agregado al carrito!</p>
+        <button class="modal__close" id="closeModal">Cerrar</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__logo">
+        <a href="./index.html">
+          <img
+            src="./images/logo.png"
+            alt="Logo de Etérea con estilo etéreo y floral"
+          />
+        </a>
+        <p class="header__slogan">Armonía y bienestar en cada detalle</p>
+      </div>
+      <div class="footer__content">
+        <div class="footer__contact">
+          <h3>Contacto</h3>
+          <p class="email">email@ejemplo.com</p>
+          <p class="phone">1234 5678</p>
+          <p class="cellphone">+54 9 11 1234 5678</p>
+        </div>
+        <div class="footer__media--content">
+          <nav class="footer__media--nav" aria-label="Redes sociales">
+            <h3>Seguinos en nuestras redes</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./images/icon/face2.svg"
+                    alt="Redirección a nuestra página de Facebook"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./images/icon/insta2.svg"
+                    alt="Redirección a nuestra página de Instagram"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./images/icon/twitter3.svg"
+                    alt="Redirección a nuestra página de X"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.tiktok.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./images/icon/tiktok1.svg"
+                    alt="Redirección a nuestra página de TikTok"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+          <div
+            class="newsletter-invite"
+            aria-label="Invitación a suscribirse al newsletter"
+          >
+            <a href="./error.html"
+              >Unite a nuestra comunidad para recibir novedades y tips
+              exclusivos</a
+            >
+          </div>
+        </div>
+        <nav class="footer__legal">
+          <h3>Información legal</h3>
+          <ul>
+            <li><a href="./error.html">Política de privacidad</a></li>
+            <li><a href="./error.html">Términos y condiciones</a></li>
+            <li><a href="./error.html">Aviso legal</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer__text">
+        &copy; 2025 Etérea - Todos los derechos reservados.
+      </p>
     </footer>
     <div class="modal-overlay" id="auth-modal">
-        <div class="modal-content">
-            <span class="close-modal" id="close-modal">&times;</span>
-            <main class="form">
-                <section class="form__layout form__layout-register">
-                    <!-- register -->
-                    <article class="form__panel">
-                        <div class="form__content">
-                            <h2>Bienvenido</h2>
-                            <p>Si ya tenes una cuenta inicia sesión con tus datos.</p>
-                            <input type="button" value="Iniciar sesión" id="sign-in">
-                        </div>
-                    </article>
-                    <article class="form__panel-register">
-                        <div class="form__register-panel">
-                            <h2>Crear una cuenta</h2>
-                            <div class="form__social-icons">
-                                <i class="fa-brands fa-google"></i>
-                                <i class="fa-brands fa-github"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </div>
-                            <p>o registrate con tu email</p>
-                            <form class="form__form" action="" method="post">
-                                <label>
-                                    <i class="form__icon fa-regular fa-user"></i>
-                                    <input type="text" placeholder="Nombre usuario" name="userName">
-                                </label>
-                                <label>
-                                    <i class="form__icon fa-regular fa-envelope"></i>
-                                    <input type="email" placeholder="Correo electrónico" name="email">
-                                </label>
-                                <label>
-                                    <i class="form__icon fa-solid fa-key"></i>
-                                    <input type="password" placeholder="Contraseña" name="password">
-                                </label>
-                                <input type="submit" value="Registrarse" class="form__submit">
-                            </form>
-                        </div>
-                    </article>
-                </section>
-                <section class="form__layout form__layout-hide form__layout-login">
-                    <!-- login -->
-                    <article class="form__panel">
-                        <div class="form__content">
-                            <h2>Bienvenido nuevamente</h2>
-                            <p>Si no tenés cuenta, por favor registrate con tus datos acá</p>
-                            <input type="button" value="Registrarse" id="sign-up">
-                        </div>
-                    </article>
-                    <article class="form__panel-register">
-                        <div class="form__register-panel">
-                            <h2>Iniciar sesión</h2>
-                            <div class="form__social-icons">
-                                <i class="fa-brands fa-google"></i>
-                                <i class="fa-brands fa-github"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </div>
-                            <p>o inicia sesión con tu email</p>
-                            <form class="form__form" action="" method="post">
-                                <label>
-                                    <i class="form__icon fa-regular fa-envelope"></i>
-                                    <input type="email" placeholder="Correo electrónico" name="email">
-                                </label>
-                                <label>
-                                    <i class="form__icon fa-solid fa-key"></i>
-                                    <input type="password" placeholder="Contraseña" name="password">
-                                </label>
-                                <input type="submit" value="Iniciar sesión" class="form__submit">
-                            </form>
-                        </div>
-                    </article>
-                </section>
-            </main>
-        </div>
+      <div class="modal-content">
+        <span class="close-modal" id="close-modal">&times;</span>
+        <main class="form">
+          <section class="form__layout form__layout-register">
+            <!-- register -->
+            <article class="form__panel">
+              <div class="form__content">
+                <h2>Bienvenido</h2>
+                <p>Si ya tenes una cuenta inicia sesión con tus datos.</p>
+                <input type="button" value="Iniciar sesión" id="sign-in" />
+              </div>
+            </article>
+            <article class="form__panel-register">
+              <div class="form__register-panel">
+                <h2>Crear una cuenta</h2>
+                <div class="form__social-icons">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <p>o registrate con tu email</p>
+                <form class="form__form" action="" method="post">
+                  <label class="form__field">
+                    <i class="form__icon fa-regular fa-user"></i>
+                    <input
+                      type="text"
+                      placeholder="Nombre usuario"
+                      name="userName"
+                    />
+                  </label>
+                  <label class="form__field">
+                    <i class="form__icon fa-regular fa-envelope"></i>
+                    <input
+                      type="email"
+                      placeholder="Correo electrónico"
+                      name="email"
+                    />
+                  </label>
+                  <label class="form__field">
+                    <i class="form__icon fa-solid fa-key"></i>
+                    <input
+                      type="password"
+                      placeholder="Contraseña"
+                      name="password"
+                    />
+                  </label>
+                  <input
+                    type="submit"
+                    value="Registrarse"
+                    class="form__submit"
+                  />
+                </form>
+              </div>
+            </article>
+          </section>
+          <section class="form__layout form__layout-hide form__layout-login">
+            <!-- login -->
+            <article class="form__panel">
+              <div class="form__content">
+                <h2>Bienvenido nuevamente</h2>
+                <p>
+                  Si no tenés cuenta, por favor registrate con tus datos acá
+                </p>
+                <input type="button" value="Registrarse" id="sign-up" />
+              </div>
+            </article>
+            <article class="form__panel-register">
+              <div class="form__register-panel">
+                <h2>Iniciar sesión</h2>
+                <div class="form__social-icons">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <p>o inicia sesión con tu email</p>
+                <form class="form__form" action="" method="post">
+                  <label class="form__field">
+                    <i class="form__icon fa-regular fa-envelope"></i>
+                    <input
+                      type="email"
+                      placeholder="Correo electrónico"
+                      name="email"
+                    />
+                  </label>
+                  <label class="form__field">
+                    <i class="form__icon fa-solid fa-key"></i>
+                    <input
+                      type="password"
+                      placeholder="Contraseña"
+                      name="password"
+                    />
+                  </label>
+                  <input
+                    type="submit"
+                    value="Iniciar sesión"
+                    class="form__submit"
+                  />
+                </form>
+              </div>
+            </article>
+          </section>
+        </main>
+      </div>
     </div>
-    <script src="./js/loginRegisterScript.js"></script>
-</body>
-
+    <script src="./js/main.js" type="module"></script>
+  </body>
 </html>

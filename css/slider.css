@@ -1,7 +1,7 @@
 .layout__slider {
   width: 95vw;
   height: 50vh;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
@@ -124,3 +124,8 @@
   background-color: rgba(122, 82, 255, 0.8);
 }
 
+@media only screen and (min-width: 1200px) {
+  .layout__slider {
+    display: flex;
+  }
+}

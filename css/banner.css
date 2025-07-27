@@ -1,7 +1,35 @@
-.banner {
-    background-color: rgba(230, 179, 255, 0.3);
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.category-menu {
+  background-color: rgba(230, 179, 255, 0.3);
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category-menu__list {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+}
+.category-menu__list li {
+  width: 20%;
+  border-right: 1px solid rgba(121, 80, 138, 0.5);
+}
+.category-menu__list li:nth-child(5) {
+  border: none;
+}
+.category-menu__list li a {
+  display: inline-block;
+  color: rgba(121, 80, 138, 0.8);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.category-menu__list li a:hover {
+  color: #a57eb6;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
 }

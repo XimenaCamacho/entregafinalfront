@@ -1,106 +1,134 @@
 .footer {
-    background: linear-gradient(to right, #f5c6ec, #d4a5ec);
-    padding: 20px 0 25px;
+  background: linear-gradient(to right, #f5c6ec, #d4a5ec);
+  padding: 20px 0 25px;
 }
 .footer__logo {
-    margin-bottom: 25px;
-    text-align: center;
+  margin-bottom: 25px;
+  text-align: center;
 }
-.footer__logo img{
-    width: 200px;
+.footer__logo img {
+  width: 200px;
 }
 .footer__content {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
 }
 .footer__contact {
-    width: 20%;
+  width: 40%;
+  margin-bottom: 1.5rem;
 }
 .footer__contact h3 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.footer__contact h3::before, .newsletter-invite::before, .footer__legal h3::after, .email::before, .phone::before, .cellphone::before, .footer__media--content h3::after {
-    content: "";
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 0.75rem;
-    vertical-align: middle;
+.footer__contact h3::before,
+.newsletter-invite::before,
+.footer__legal h3::after,
+.email::before,
+.phone::before,
+.cellphone::before,
+.footer__media--content h3::after {
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.75rem;
+  vertical-align: middle;
 }
-.footer__contact h3::before, .newsletter-invite::before, .footer__legal h3::after {
-    width: 40px;
-    height: 40px;
+.footer__contact h3::before,
+.newsletter-invite::before,
+.footer__legal h3::after {
+  width: 40px;
+  height: 40px;
 }
 .footer__contact h3::before {
-    background-image: url("../images/icon/contactus.svg");
+  background-image: url("../images/icon/contactus.svg");
 }
-.footer__contact p, .footer__contact h3 {
-    margin-top: 10px;
-    padding-left: 150px;
+.footer__contact p,
+.footer__contact h3 {
+  margin-top: 10px;
 }
 .footer__contact p {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
-.email::before, .phone::before, .cellphone::before {
-    width: 30px;
-    height: 30px;
+.email::before,
+.phone::before,
+.cellphone::before {
+  width: 30px;
+  height: 30px;
 }
 .email::before {
-    background-image: url("../images/icon/mail1.svg");
+  background-image: url("../images/icon/mail1.svg");
 }
 .phone::before {
-    background-image: url("../images/icon/phone1.svg");
+  background-image: url("../images/icon/phone1.svg");
 }
 .cellphone::before {
-    background-image: url("../images/icon/whatsapp2.svg");
+  background-image: url("../images/icon/whatsapp2.svg");
 }
 .footer__media--content {
-    width: 60%;
-    text-align: center;
+  width: 95%;
+  text-align: center;
 }
 .footer__media--content h3::after {
-    background-image: url("../images/icon/corazon1.svg");
-    width: 35px;
-    height: 35px;
-    margin-left: 0.5rem;
+  background-image: url("../images/icon/corazon1.svg");
+  width: 35px;
+  height: 35px;
+  margin-left: 0.5rem;
 }
 .footer__media--nav ul {
-    display: flex;
-    justify-content: center;
-    margin: 25px 0 10px;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 10px;
 }
 .footer__media--nav ul li {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 .footer__media--nav img {
-    width: 60px;
+  width: 3rem;
 }
 .newsletter-invite a {
-    font-size: 1.25em;
+  font-size: 1em;
 }
-.newsletter-invite a:hover, .footer__legal a:hover {
-    color: rgba(255, 255, 255, 0.6);
-    transition: all 0.3s ease-in-out;
+.newsletter-invite a:hover,
+.footer__legal a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease-in-out;
 }
 .newsletter-invite::before {
-    background-image: url("../images/icon/contacto1.svg");
+  background-image: url("../images/icon/contacto1.svg");
 }
 .footer__legal {
-    width: 20%;
+  width: 40%;
+  margin: 2rem 0;
 }
 .footer__legal h3 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-.footer__legal h3::after{
-    background-image: url("../images/icon/aviso.svg");
-    margin-left: 0.75rem;
+.footer__legal h3::after {
+  background-image: url("../images/icon/aviso.svg");
+  margin-left: 0.75rem;
 }
 .footer__legal a {
-    font-size: 1.10em;
+  font-size: 1.1em;
 }
 .footer__legal li {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .footer__text {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .footer__content {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer__contact {
+    width: 20%;
+  }
 }

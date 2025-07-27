@@ -4,11 +4,18 @@
     box-sizing: border-box;
     color: #79508a;
 }
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 body {
     font-family: "Geist", sans-serif;
     background: linear-gradient(to bottom, #f8f3fc, #e8dcf1);
     background-attachment: fixed;
+    background-color: black;
 }
+
 .layout__main {
     width: 100%;
     display: flex;

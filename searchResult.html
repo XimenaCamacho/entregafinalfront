@@ -6,11 +6,9 @@
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/slider.css" />
-    <link rel="stylesheet" href="./css/banner.css" />
-    <link rel="stylesheet" href="./css/banner.css" />
     <link rel="stylesheet" href="./css/login.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/search.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
       rel="stylesheet"
@@ -19,7 +17,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
     <title>Etérea</title>
   </head>
 
@@ -141,96 +138,17 @@
       <a href="./cart.html">Mis compras</a>
       <a href="./favorites.html">Favoritos</a>
     </aside>
-    <main class="layout__main">
-      <!-- Inicio slider -->
-      <section class="layout__slider">
-        <div class="layout__slider--container">
-          <ul class="layout__slider--slides">
-            <li class="layout__slider--slide">
-              <img
-                src="./images/banners/banner6.png"
-                alt="Banner decorativo 1"
-                class="layout__slider--image"
-              />
-            </li>
-            <li class="layout__slider--slide">
-              <img
-                src="./images/banners/banner7.png"
-                alt="Banner decorativo 2"
-                class="layout__slider--image"
-              />
-            </li>
-            <li class="layout__slider--slide">
-              <img
-                src="./images/banners/banner3.png"
-                alt="Banner decorativo 3"
-                class="layout__slider--image"
-              />
-            </li>
-          </ul>
-          <button class="layout__slider--left" aria-label="Imagen anterior">
-            &#10094;
-          </button>
-          <button class="layout__slider--right" aria-label="Imagen siguiente">
-            &#10095;
-          </button>
-          <div class="layout__slider--dots">
-            <span class="layout__slider--dot is-active"></span>
-            <span class="layout__slider--dot"></span>
-            <span class="layout__slider--dot"></span>
-          </div>
-        </div>
-      </section>
-      <!-- Fin slider -->
-      <section class="index__products index__products--fuentes">
-        <h2 class="index__products-title">Fuentes</h2>
-        <div class="index__products-list"></div>
-        <a
-          href="./productList.html?category=fuentes"
-          class="index__products--button"
-          >Ver más</a
-        >
-      </section>
+    <main class="layout__products">
+      <a href="./index.html" class="layout__products-back">Volver al home</a>
+      <h2 id="search-title">
+        Resultados para: <span id="search-query"></span>
+      </h2>
+      <section
+        class="layout__products-list"
+        id="search-results-container"
+      ></section>
 
-      <section class="index__products index__products--decoracion">
-        <h2 class="index__products-title">Decoración</h2>
-        <div class="index__products-list"></div>
-        <a
-          href="./productList.html?category=decoracion"
-          class="index__products--button"
-          >Ver más</a
-        >
-      </section>
-
-      <section class="index__products index__products--piedras">
-        <h2 class="index__products-title">Piedras</h2>
-        <div class="index__products-list"></div>
-        <a
-          href="./productList.html?category=piedras"
-          class="index__products--button"
-          >Ver más</a
-        >
-      </section>
-
-      <section class="index__products index__products--bijouterie">
-        <h2 class="index__products-title">Bijouterie</h2>
-        <div class="index__products-list"></div>
-        <a
-          href="./productList.html?category=bijouterie"
-          class="index__products--button"
-          >Ver más</a
-        >
-      </section>
-
-      <section class="index__products index__products--aromas">
-        <h2 class="index__products-title">Aromas</h2>
-        <div class="index__products-list"></div>
-        <a
-          href="./productList.html?category=aromas"
-          class="index__products--button"
-          >Ver más</a
-        >
-      </section>
+      <a href="./index.html" class="layout__products-back">Volver al home</a>
     </main>
     <footer class="footer">
       <div class="footer__logo">
@@ -318,7 +236,6 @@
         &copy; 2025 Etérea - Todos los derechos reservados.
       </p>
     </footer>
-    <!-- Login y register -->
     <div class="modal-overlay" id="auth-modal">
       <div class="modal-content">
         <span class="close-modal" id="close-modal">&times;</span>

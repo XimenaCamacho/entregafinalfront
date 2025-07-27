@@ -1,91 +1,233 @@
 .header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background: linear-gradient(to right, #f5c6ec, #d4a5ec);
-    padding: 15px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to right, #f5c6ec, #d4a5ec);
+  padding: 15px 0;
 }
 .header__logo {
-    width: 20%;
+  width: 15%;
 }
 .header__logo img {
-    width: 30%;
+  width: 100%;
 }
 .search__bar {
-    position: relative;
-    display: flex;
-    width: 30%;
+  position: relative;
+  display: flex;
+  width: 30%;
 }
 .search__input {
-    width: 100%;
-    background-color: #EDEDED;
-    font-size: 16px;
-    padding: 8px 40px 10px 12px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  width: 100%;
+  background-color: #ededed;
+  font-size: 16px;
+  padding: 8px 40px 10px 12px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 .search__button {
-    position: absolute;
-    transform: translateY(-50%);
-    right: 8px;
-    top: 50%;
-    padding-top: 5px;
-    width: 28px;
-    background-color: #EDEDED;
-    border: none;
-    cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+  right: 8px;
+  top: 50%;
+  padding-top: 5px;
+  width: 28px;
+  background-color: #ededed;
+  border: none;
+  cursor: pointer;
 }
 .header__nav {
-    width: 20%;
+  width: 20%;
 }
 .header__nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 20%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 20%;
 }
 .header__nav ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .header__icon {
-    width: 30px;
+  width: 30px;
 }
 .header__nav li:nth-child(2) svg {
-    width: 40px;
-    height: auto;
+  width: 40px;
+  height: auto;
 }
 .header__nav li img {
-    width: 40px;
-    height: auto;
-    margin-left: -10px;
+  width: 40px;
+  height: auto;
+  margin-left: -10px;
 }
 /*Ayuda de chatgpt porque me gusta verlo lindo*/
 .tooltip-container {
-    position: relative;
+  position: relative;
 }
 .tooltip {
-    visibility: hidden;
-    opacity: 0;
-    background-color: #e8d6fc;
-    color: #a1569c;
-    text-align: center;
-    border-radius: 8px;
-    padding: 6px 10px;
-    position: absolute;
-    z-index: 10;
-    bottom: -45px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.95rem;
-    white-space: nowrap;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    font-family: "Playwrite DE Grund", cursive;
-    font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #e8d6fc;
+  color: #a1569c;
+  text-align: center;
+  border-radius: 8px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 10;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.95rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: bold;
 }
 .tooltip-container:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
+}
+
+.header__cart {
+  position: relative;
+}
+
+.header__cart-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #79508a;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+/* Menu hamburguesa */
+aside.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 80vw;
+  background: linear-gradient(to left, #f5c6ec, #d4a5ec);
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: right 0.4s ease;
+  z-index: 999;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+aside.mobile-menu.active {
+  right: 0;
+}
+
+aside.mobile-menu {
+  transition: transform 0.4s ease;
+  transform: translateX(100%);
+}
+aside.mobile-menu.active {
+  transform: translateX(0);
+}
+
+aside.mobile-menu a {
+  width: 100%;
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 1.4rem;
+  color: #5e2b5e;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+  border-bottom: 1px solid #ededed;
+}
+
+aside.mobile-menu a:hover {
+  background-color: #ffffff60;
+}
+
+/* === BOTÓN HAMBURGUESA === */
+.toggle-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.toggle-bar {
+  width: 38px;
+  height: 6px;
+  background-color: #6d4c7d;
+  transition: all 0.3s ease;
+}
+
+/* transformación de la X que quedo deforme todavia!! :( */
+
+.toggle-wrap.active .toggle-bar:nth-child(1) {
+  transform: rotate(50deg) translateY(18px);
+}
+
+.toggle-wrap.active .toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle-wrap.active .toggle-bar:nth-child(3) {
+  transform: rotate(-50deg) translateY(-18px);
+}
+
+@media (max-width: 767px) {
+  .header__nav.desktop-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .toggle-wrap,
+  aside.mobile-menu {
+    display: none;
+  }
+
+  .header__nav.desktop-menu {
+    display: block;
+  }
+
+  .header__nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .header__nav a {
+    color: #6d4c7d;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .header__logo {
+    width: 20%;
+  }
+  .header__logo img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__logo {
+    width: 20%;
+  }
+  .header__logo img {
+    width: 40%;
+  }
 }
