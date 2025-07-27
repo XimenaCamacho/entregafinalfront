@@ -26,7 +26,7 @@ export async function renderList() {
       const article = document.createElement("article");
       article.classList.add("product-card");
       article.innerHTML = `
-    <a href="./productDetail.html?id=${product.id}">
+    <a href="productDetail.html?id=${product.id}">
       <img class="product-card__image" src="${product.image}" alt="${
         product.name
       }" />
@@ -34,11 +34,11 @@ export async function renderList() {
     <h3 class="product-card__name">${product.name}</h3>
     <p class="product-card__price">$ ${product.price.toFixed(2)}</p>
     <p class="product-card__description">
-      ${product.description} <a href="./productDetail.html?id=${
+      ${product.description} <a href="productDetail.html?id=${
         product.id
       }">Ver más</a>
     </p>
-    <a class="product-card__button" href="./productDetail.html?id=${
+    <a class="product-card__button" href="productDetail.html?id=${
       product.id
     }">Detalles</a>
   `;

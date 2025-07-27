@@ -52,8 +52,10 @@ document.querySelector("#addToCart")?.addEventListener("click", async () => {
   const quantity =
     parseInt(document.getElementById("number")?.textContent) || 1;
 
-  const products = await fetchData("../data/articles.json");
-  const product = products.find((p) => p.id?.toString() === id);
+  const products = await fetchData(
+    "https://ximenacamacho.github.io/entregafinalfront/data/articles.json"
+  );
+  const product = products.find((product) => product.id?.toString() === id);
   if (!product) return;
 
   const productToAdd = {
