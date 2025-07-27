@@ -4,7 +4,9 @@ import { toggleFavorite, updateHeartIcon } from "./favs.js";
 
 export async function productDetail() {
   const id = new URLSearchParams(window.location.search).get("id");
-  const products = await fetchData("../data/articles.json");
+  const products = await fetchData(
+    "https://ximenacamacho.github.io/entregafinalfront/data/articles.json"
+  );
   const product = products.find((p) => p.id?.toString() === id);
 
   if (!product) return;
