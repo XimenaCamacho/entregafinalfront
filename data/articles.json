@@ -7,7 +7,7 @@
   "discount": 0,
   "description": "Set de seis aceites esenciales naturales con fragancias como lavanda, eucalipto y sándalo. Ideales para hornillos y difusores.",
   "stock": 20,
-  "image": "/images/products/aromas/aceite1.png",
+  "image": "images/products/aromas/aceite1.png",
   "tags": ["aceites", "esenciales", "aromaterapia", "relajación", "lavanda", "eucalipto"]
 },
 {
@@ -18,7 +18,7 @@
   "discount": 0,
   "description": "Colección premium de nueve aceites esenciales con fragancias florales y amaderadas. Para rituales, hornillos y bienestar diario.",
   "stock": 15,
-  "image": "/images/products/aromas/aceite2.png",
+  "image": "images/products/aromas/aceite2.png",
   "tags": ["aceites", "premium", "relax", "esencias", "rituales", "spa"]
 },
 {
@@ -29,7 +29,7 @@
   "discount": 0,
   "description": "Aceite esencial de lavanda 100% puro. Calmante natural, perfecto para masajes, baños y meditación.",
   "stock": 30,
-  "image": "/images/products/aromas/aceite3.png",
+  "image": "images/products/aromas/aceite3.png",
   "tags": ["lavanda", "relajación", "esencia", "aceite", "natural"]
 },
 {
@@ -40,7 +40,7 @@
   "discount": 0,
   "description": "Conos de incienso artesanales en variedad de colores y aromas. Compatibles con cascadas de humo.",
   "stock": 50,
-  "image": "/images/products/aromas/conos1.png",
+  "image": "images/products/aromas/conos1.png",
   "tags": ["conos", "incienso", "cascada", "aroma", "artesanal"]
 },
 {
@@ -51,7 +51,7 @@
   "discount": 0,
   "description": "Conos de incienso con fragancia de sándalo. Aroma intenso, ideal para la concentración y meditación.",
   "stock": 40,
-  "image": "/images/products/aromas/conos2.webp",
+  "image": "images/products/aromas/conos2.webp",
   "tags": ["sándalo", "incienso", "conos", "meditación", "madera"]
 },
 {
@@ -62,7 +62,7 @@
   "discount": 0,
   "description": "Divertida colección de conos aromáticos con formas y colores llamativos. Aromas dulces y frutales.",
   "stock": 35,
-  "image": "/images/products/aromas/conos3.webp",
+  "image": "images/products/aromas/conos3.webp",
   "tags": ["aromáticos", "dulce", "fantasía", "incienso", "frutal"]
 },
 {
@@ -73,7 +73,7 @@
   "discount": 0,
   "description": "Hornillo decorativo con diseño floral calado. Ideal para esencias y aceites esenciales.",
   "stock": 12,
-  "image": "/images/products/aromas/hornito1.webp",
+  "image": "images/products/aromas/hornito1.webp",
   "tags": ["hornillo", "cerámica", "esencias", "aceite", "aromaterapia"]
 },
 {
@@ -84,7 +84,7 @@
   "discount": 0,
   "description": "Hornillo blanco de estilo minimalista. Perfecto para usar con velas y aceites esenciales.",
   "stock": 10,
-  "image": "/images/products/aromas/hornito2.webp",
+  "image": "images/products/aromas/hornito2.webp",
   "tags": ["hornillo", "blanco", "minimalista", "aroma", "decoración"]
 },
 {
@@ -95,7 +95,7 @@
   "discount": 0,
   "description": "Hornillo artesanal en barro cocido con acabado rústico. Aporta calidez y aroma al ambiente.",
   "stock": 8,
-  "image": "/images/products/aromas/hornito3.webp",
+  "image": "images/products/aromas/hornito3.webp",
   "tags": ["barro", "rústico", "hornillo", "aroma", "hecho a mano"]
 },
 {
@@ -106,7 +106,7 @@
   "discount": 0,
   "description": "Ramas de palo santo seleccionadas para sahumar. Purifican el espacio y elevan la vibración.",
   "stock": 25,
-  "image": "/images/products/aromas/palosanto1.webp",
+  "image": "images/products/aromas/palosanto1.webp",
   "tags": ["palo santo", "purificación", "sahumar", "natural", "energía"]
 },
 {
@@ -117,7 +117,7 @@
   "discount": 0,
   "description": "Combo de palo santo con cristales y canela. Ideal para rituales de limpieza y atracción.",
   "stock": 18,
-  "image": "/images/products/aromas/palosanto2.png",
+  "image": "images/products/aromas/palosanto2.png",
   "tags": ["palo santo", "cuarzo", "canela", "ritual", "limpieza"]
 },
 {
@@ -128,7 +128,7 @@
   "discount": 0,
   "description": "Set de sahumerios artesanales con esencias únicas como jazmín, canela y sándalo. Hechos a mano para un aroma intenso y duradero.",
   "stock": 30,
-  "image": "/images/products/aromas/sahumerio1.png",
+  "image": "images/products/aromas/sahumerio1.png",
   "tags": ["sahumerio", "artesanal", "jazmín", "canela", "sándalo", "hecho a mano"]
 },
 {
@@ -139,7 +139,7 @@
   "discount": 0,
   "description": "Elegante pack de sahumerios con envoltorio hindú. Incluye aromas profundos y místicos ideales para meditación.",
   "stock": 22,
-  "image": "/images/products/aromas/sahumerio2.png",
+  "image": "images/products/aromas/sahumerio2.png",
   "tags": ["sahumerios", "premium", "hindú", "meditación", "espiritual"]
 },
 {
@@ -150,7 +150,7 @@
   "discount": 0,
   "description": "Varitas de incienso con aromas florales y maderas sagradas. Una combinación que eleva la energía del ambiente.",
   "stock": 35,
-  "image": "/images/products/aromas/sahumerio4.webp",
+  "image": "images/products/aromas/sahumerio4.webp",
   "tags": ["incienso", "floral", "amaderado", "ambiente", "ritual"]
 },
 {
@@ -161,7 +161,7 @@
   "discount": 0,
   "description": "Sahumerios de colores representando los siete chakras. Ideal para limpieza energética y alineación espiritual.",
   "stock": 28,
-  "image": "/images/products/aromas/sahumerio5.webp",
+  "image": "images/products/aromas/sahumerio5.webp",
   "tags": ["chakras", "sahumerio", "energía", "alineación", "colores"]
 },
 {
@@ -172,7 +172,7 @@
   "discount": 0,
   "description": "Set de sahumerios en caja de madera con tapa deslizable. Incluye selección de fragancias naturales.",
   "stock": 14,
-  "image": "/images/products/aromas/sahumerio6.webp",
+  "image": "images/products/aromas/sahumerio6.webp",
   "tags": ["estuche", "madera", "sahumerios", "natural", "regalo"]
 },
 {
@@ -183,7 +183,7 @@
   "discount": 0,
   "description": "Base de madera con grabado de mandalas para sahumerios de varilla. Diseño delicado y funcional.",
   "stock": 25,
-  "image": "/images/products/aromas/porta1.png",
+  "image": "images/products/aromas/porta1.png",
   "tags": ["porta sahumerio", "mandala", "madera", "incienso", "decoración"]
 },
 {
@@ -194,7 +194,7 @@
   "discount": 0,
   "description": "Soporte para sahumerios de diseño minimalista en tonos neutros. Ideal para espacios modernos.",
   "stock": 20,
-  "image": "/images/products/aromas/porta2.png",
+  "image": "images/products/aromas/porta2.png",
   "tags": ["porta", "sahumerio", "blanco", "minimalista", "moderno"]
 },
 {
@@ -205,7 +205,7 @@
   "discount": 0,
   "description": "Porta de madera bordado con los símbolos de los siete chakras. Perfecto para rituales de armonización.",
   "stock": 18,
-  "image": "/images/products/aromas/porta3.png",
+  "image": "images/products/aromas/porta3.png",
   "tags": ["chakras", "porta", "sahumerio", "ritual", "armonía"]
 },
 {
@@ -216,7 +216,7 @@
   "discount": 0,
   "description": "Torre de madera tallada con orificios para quemar sahumerios en su interior. Elegante y seguro.",
   "stock": 16,
-  "image": "/images/products/aromas/porta4.webp",
+  "image": "images/products/aromas/porta4.webp",
   "tags": ["torre", "tallado", "madera", "incienso", "porta seguro"]
 },
 {
@@ -227,7 +227,7 @@
   "discount": 0,
   "description": "Pack de cuatro torres para sahumerios con detalles hindúes. Protección y belleza en un solo objeto.",
   "stock": 10,
-  "image": "/images/products/aromas/porta5.webp",
+  "image": "images/products/aromas/porta5.webp",
   "tags": ["torre", "hindú", "porta", "tallado", "pack", "decoración"]
 },
 {
@@ -238,7 +238,7 @@
   "discount": 0,
   "description": "Clásico soporte de madera natural para sahumerios de varilla. Simple, funcional y duradero.",
   "stock": 30,
-  "image": "/images/products/aromas/porta6.webp",
+  "image": "images/products/aromas/porta6.webp",
   "tags": ["madera", "natural", "porta", "sahumerio", "clásico"]
 },
 {
@@ -249,7 +249,7 @@
   "discount": 0,
   "description": "Caja de madera calada con espacio interior para almacenar varillas. Quema y guarda en un solo lugar.",
   "stock": 12,
-  "image": "/images/products/aromas/porta7.webp",
+  "image": "images/products/aromas/porta7.webp",
   "tags": ["porta caja", "almacenamiento", "madera", "sahumerios", "calado"]
 },
 {
@@ -260,7 +260,7 @@
   "discount": 0,
   "description": "Porta en forma de pirámide con base ancha y diseño tallado. Ideal para conos o varillas.",
   "stock": 15,
-  "image": "/images/products/aromas/porta8.webp",
+  "image": "images/products/aromas/porta8.webp",
   "tags": ["pirámide", "tallado", "madera", "porta", "multiformato"]
 },
 {
@@ -271,7 +271,7 @@
   "discount": 0,
   "description": "Set de amuletos Hamsa y símbolos protectores en relieve. Pueden usarse como porta sahumerio o decoración.",
   "stock": 20,
-  "image": "/images/products/aromas/porta9.webp",
+  "image": "images/products/aromas/porta9.webp",
   "tags": ["amuletos", "hamsa", "protección", "sahumerio", "espiritualidad"]
 },
 {
@@ -282,7 +282,7 @@
   "discount": 0,
   "description": "Mezcla de resinas, flores secas y hierbas para quemar sobre carbón. Aroma profundo, ideal para limpiezas energéticas.",
   "stock": 18,
-  "image": "/images/products/aromas/piedras1.webp",
+  "image": "images/products/aromas/piedras1.webp",
   "tags": ["resinas", "sahumo", "limpieza", "energía", "hierbas", "ritual"]
 },
 {
@@ -293,7 +293,7 @@
   "discount": 0,
   "description": "Combo especial con carbón vegetal, resina aromática y copal. Potente para abrir caminos y protección.",
   "stock": 15,
-  "image": "/images/products/aromas/piedras2.webp",
+  "image": "images/products/aromas/piedras2.webp",
   "tags": ["copal", "resina", "carbón", "protección", "ritual", "sahumar"]
 },
 {
@@ -304,7 +304,7 @@
   "discount": 0,
   "description": "Cascada de cerámica negra con forma de espiral ascendente. Ideal para conectar con la calma profunda.",
   "stock": 10,
-  "image": "/images/products/aromas/cascada1.webp",
+  "image": "images/products/aromas/cascada1.webp",
   "tags": ["cascada", "espiral", "zen", "humo", "relajación"]
 },
 {
@@ -315,7 +315,7 @@
   "discount": 0,
   "description": "Cáliz de humo con forma ceremonial, perfecto para espacios sagrados. Diseño elegante y misterioso.",
   "stock": 8,
-  "image": "/images/products/aromas/cascada2.png",
+  "image": "images/products/aromas/cascada2.png",
   "tags": ["cascada", "cáliz", "ritual", "humo", "místico"]
 },
 {
@@ -326,7 +326,7 @@
   "discount": 0,
   "description": "Pareja de dioses orientales abrazando la cascada de humo. Protege y armoniza cualquier ambiente.",
   "stock": 7,
-  "image": "/images/products/aromas/cascada3.webp",
+  "image": "images/products/aromas/cascada3.webp",
   "tags": ["oriental", "dioses", "protección", "humo", "armonía"]
 },
 {
@@ -337,7 +337,7 @@
   "discount": 0,
   "description": "Diseño en espiral con efecto Yin Yang. Balance perfecto entre energías opuestas. Cerámica negra y blanca.",
   "stock": 9,
-  "image": "/images/products/aromas/cascada4.webp",
+  "image": "images/products/aromas/cascada4.webp",
   "tags": ["yin yang", "equilibrio", "espiral", "humo", "armonía"]
 },
 {
@@ -348,7 +348,7 @@
   "discount": 0,
   "description": "Cascada de humo hecha a mano con cáscara de coco tallado. Rústica, cálida y exótica.",
   "stock": 12,
-  "image": "/images/products/aromas/cascada5.webp",
+  "image": "images/products/aromas/cascada5.webp",
   "tags": ["coco", "natural", "tallado", "artesanal", "humo"]
 },
 {
@@ -359,7 +359,7 @@
   "discount": 0,
   "description": "Diseño moderno en forma de gota. El humo cae como una suave cascada en espiral. Relajación garantizada.",
   "stock": 11,
-  "image": "/images/products/aromas/cascada6.webp",
+  "image": "images/products/aromas/cascada6.webp",
   "tags": ["gota", "agua", "fluidez", "humo", "moderno"]
 },
 {
@@ -370,7 +370,7 @@
   "discount": 0,
   "description": "Versión mini y delicada de cascada en coco. Ideal para espacios pequeños o altares personales.",
   "stock": 14,
-  "image": "/images/products/aromas/sahumerio3.webp",
+  "image": "images/products/aromas/sahumerio3.webp",
   "tags": ["mini", "coco", "altar", "espiritual", "humo"]
 },
 {
@@ -381,7 +381,7 @@
   "discount": 0,
   "description": "Set de siete velas color chakra, cada una con una fragancia específica para armonizar y meditar.",
   "stock": 20,
-  "image": "/images/products/aromas/velas1.webp",
+  "image": "images/products/aromas/velas1.webp",
   "tags": ["velas", "chakra", "colores", "armonía", "meditación"]
 },
 {
@@ -392,7 +392,7 @@
   "discount": 0,
   "description": "Vela blanca para rituales de purificación, apertura de caminos y conexión espiritual.",
   "stock": 30,
-  "image": "/images/products/aromas/velas2.webp",
+  "image": "images/products/aromas/velas2.webp",
   "tags": ["vela", "blanca", "purificación", "intención", "ritual"]
 },
 {
@@ -403,7 +403,7 @@
   "discount": 0,
   "description": "Pack de seis velas en tonos pastel hechas con cera vegetal. Aromáticas y decorativas.",
   "stock": 25,
-  "image": "/images/products/aromas/velas3.webp",
+  "image": "images/products/aromas/velas3.webp",
   "tags": ["velas", "cera vegetal", "pastel", "aroma", "decoración"]
 },
 {
@@ -414,7 +414,7 @@
   "discount": 0,
   "description": "Vela alta en forma cónica, ideal para centros de mesa o altares. Disponible en varios colores.",
   "stock": 15,
-  "image": "/images/products/aromas/velas4.webp",
+  "image": "images/products/aromas/velas4.webp",
   "tags": ["vela", "cónica", "decoración", "altar", "colores"]
 },
 {
@@ -425,7 +425,7 @@
   "discount": 0,
   "description": "Pequeña vela con forma de rosa y suave fragancia floral. Perfecta para regalar o ambientar.",
   "stock": 22,
-  "image": "/images/products/aromas/velas5.webp",
+  "image": "images/products/aromas/velas5.webp",
   "tags": ["vela", "rosa", "aromática", "floral", "detalle"]
 },
 {
@@ -436,7 +436,7 @@
   "discount": 0,
   "description": "Set de cuatro velas estilo vintage decoradas con hilo y ramitas. Aromas suaves y presentación adorable.",
   "stock": 18,
-  "image": "/images/products/aromas/velas6.png",
+  "image": "images/products/aromas/velas6.png",
   "tags": ["vintage", "vela", "pack", "decorativa", "ramitas"]
 },
 {
@@ -447,7 +447,7 @@
   "discount": 0,
   "description": "Set de anillos con piedras naturales engarzadas en metal. Variedad de colores y formas. Talle ajustable.",
   "stock": 12,
-  "image": "/images/products/bijouterie/anillos1.jpg",
+  "image": "images/products/bijouterie/anillos1.jpg",
   "tags": ["anillos", "piedras", "naturales", "ajustables", "colores"]
 },
 {
@@ -458,7 +458,7 @@
   "discount": 0,
   "description": "Diseños bohemios con piedras como turquesa, ónix y cuarzo rosa. Estilo libre y espiritual.",
   "stock": 10,
-  "image": "/images/products/bijouterie/anillos2.png",
+  "image": "images/products/bijouterie/anillos2.png",
   "tags": ["anillos", "bohemio", "cuarzo", "turquesa", "místico"]
 },
 {
@@ -469,7 +469,7 @@
   "discount": 0,
   "description": "Elegantes anillos de imitación plata con piedras energéticas. Talle único y cómodo.",
   "stock": 18,
-  "image": "/images/products/bijouterie/anillos3.jpeg",
+  "image": "images/products/bijouterie/anillos3.jpeg",
   "tags": ["plata", "anillos", "ajustables", "piedras", "energía"]
 },
 {
@@ -480,7 +480,7 @@
   "discount": 0,
   "description": "Cristales naturales montados en bases metálicas pulidas. Cada pieza es única.",
   "stock": 15,
-  "image": "/images/products/bijouterie/anillos4.jpg",
+  "image": "images/products/bijouterie/anillos4.jpg",
   "tags": ["cristales", "anillos", "únicos", "metálico", "natural"]
 },
 {
@@ -491,7 +491,7 @@
   "discount": 0,
   "description": "Estilo esotérico con símbolos de protección como el ojo turco y gemas brillantes.",
   "stock": 20,
-  "image": "/images/products/bijouterie/anillos5.jpg",
+  "image": "images/products/bijouterie/anillos5.jpg",
   "tags": ["protección", "ojo turco", "anillos", "tercer ojo", "espiritual"]
 },
 {
@@ -502,7 +502,7 @@
   "discount": 0,
   "description": "Piedras grandes como amatista, obsidiana y aventurina. Presencia poderosa en cada mano.",
   "stock": 10,
-  "image": "/images/products/bijouterie/anillos6.jpg",
+  "image": "images/products/bijouterie/anillos6.jpg",
   "tags": ["amatista", "obsidiana", "aventurina", "poder", "anillo grande"]
 },
 {
@@ -513,7 +513,7 @@
   "discount": 0,
   "description": "Anillos estilo místico con detalles grabados y piedras energéticas. Belleza espiritual.",
   "stock": 14,
-  "image": "/images/products/bijouterie/anillos7.jpg",
+  "image": "images/products/bijouterie/anillos7.jpg",
   "tags": ["místico", "grabado", "piedras", "espiritual", "anillo"]
 },
 {
@@ -524,7 +524,7 @@
   "discount": 0,
   "description": "Anillos finos con cuarzo rosa engarzado. Amor, dulzura y conexión emocional.",
   "stock": 16,
-  "image": "/images/products/bijouterie/anillos8.png",
+  "image": "images/products/bijouterie/anillos8.png",
   "tags": ["cuarzo rosa", "amor", "delicado", "femenino", "anillos"]
 },
 {
@@ -535,7 +535,7 @@
   "discount": 0,
   "description": "Piedras lunares de efecto tornasol con acabado brillante. Estilo etéreo.",
   "stock": 20,
-  "image": "/images/products/bijouterie/anillos9.jpg",
+  "image": "images/products/bijouterie/anillos9.jpg",
   "tags": ["luna", "brillo", "piedras", "etéreo", "bijouterie"]
 },
 {
@@ -546,7 +546,7 @@
   "discount": 0,
   "description": "Surtido de anillos con piedras naturales: ágata, jade, cuarzo y más. Ideal para uso diario o regalo.",
   "stock": 12,
-  "image": "/images/products/bijouterie/anillos10.jpg",
+  "image": "images/products/bijouterie/anillos10.jpg",
   "tags": ["cristales", "surtido", "piedras", "anillos", "regalo"]
 },
 {
@@ -557,7 +557,7 @@
   "discount": 0,
   "description": "Piedra aventurina verde en forma irregular. Atrae prosperidad y calma emocional.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante1.jpg",
+  "image": "images/products/bijouterie/colgante1.jpg",
   "tags": ["aventurina", "prosperidad", "verde", "colgante", "natural"]
 },
 {
@@ -568,7 +568,7 @@
   "discount": 0,
   "description": "Tres delicados cuarzos verdes unidos en un elegante diseño. Estilo armónico.",
   "stock": 8,
-  "image": "/images/products/bijouterie/colgante2.jpg",
+  "image": "images/products/bijouterie/colgante2.jpg",
   "tags": ["cuarzo", "verde", "colgante", "armonía", "triple"]
 },
 {
@@ -579,7 +579,7 @@
   "discount": 0,
   "description": "Colgante de resina ámbar con brillo dorado. Energía solar para potenciar tu fuego interno.",
   "stock": 9,
-  "image": "/images/products/bijouterie/colgante3.jpg",
+  "image": "images/products/bijouterie/colgante3.jpg",
   "tags": ["ámbar", "sol", "energía", "dorado", "colgante"]
 },
 {
@@ -590,7 +590,7 @@
   "discount": 0,
   "description": "Cuarzo transparente en forma de punta. Canaliza energía, ideal para proteger y armonizar.",
   "stock": 11,
-  "image": "/images/products/bijouterie/colgante4.jpg",
+  "image": "images/products/bijouterie/colgante4.jpg",
   "tags": ["cuarzo cristal", "punta", "protección", "armonía", "colgante"]
 },
 {
@@ -601,7 +601,7 @@
   "discount": 0,
   "description": "Colgantes de cuarzo rosa y blanco. Amor, feminidad y claridad emocional.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante5.jpg",
+  "image": "images/products/bijouterie/colgante5.jpg",
   "tags": ["cuarzo rosa", "claridad", "amor", "femenino", "trío"]
 },
 {
@@ -612,7 +612,7 @@
   "discount": 0,
   "description": "Cristal tratado con efecto arcoíris. Energía vibrante y protección del aura.",
   "stock": 7,
-  "image": "/images/products/bijouterie/colgante6.jpg",
+  "image": "images/products/bijouterie/colgante6.jpg",
   "tags": ["aura", "arcoíris", "protección", "vibrante", "cristal"]
 },
 {
@@ -623,7 +623,7 @@
   "discount": 0,
   "description": "Puntas de cuarzo con baño aura en tonos pastel. Estilo delicado y mágico.",
   "stock": 5,
-  "image": "/images/products/bijouterie/colgante7.jpg",
+  "image": "images/products/bijouterie/colgante7.jpg",
   "tags": ["pastel", "cuarzo aura", "colgante", "mágico", "punta"]
 },
 {
@@ -634,7 +634,7 @@
   "discount": 0,
   "description": "Set de 7 colgantes en puntas gemas: amatista, turmalina, obsidiana y más. Protección y poder.",
   "stock": 7,
-  "image": "/images/products/bijouterie/colgante8.jpg",
+  "image": "images/products/bijouterie/colgante8.jpg",
   "tags": ["gemas", "puntas", "protección", "set", "chakra"]
 },
 {
@@ -645,7 +645,7 @@
   "discount": 0,
   "description": "Colgante pequeño y delicado de cuarzo rosa. Dulzura y conexión emocional.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante9.jpg",
+  "image": "images/products/bijouterie/colgante9.jpg",
   "tags": ["cuarzo rosa", "mini", "dulzura", "emocional", "bijouterie"]
 },
 {
@@ -656,7 +656,7 @@
   "discount": 0,
   "description": "Gemas rosa talladas estilo lágrima. Para quienes buscan armonía y ternura.",
   "stock": 8,
-  "image": "/images/products/bijouterie/colgante10.jpeg",
+  "image": "images/products/bijouterie/colgante10.jpeg",
   "tags": ["rosa", "armonía", "gota", "ternura", "colgante"]
 },
 {
@@ -667,7 +667,7 @@
   "discount": 5,
   "description": "Una joya con alma propia. Piedra esmeralda tallada en forma de corazón, símbolo de armonía y conexión emocional. Ideal como amuleto personal o detalle delicado en cualquier conjunto. Su tono verde profundo evoca energía y equilibrio.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante11.jpg",
+  "image": "images/products/bijouterie/colgante11.jpg",
   "tags": ["elegante", "piedra", "verde", "armonía", "accesorio", "energía"]
 },
 {
@@ -678,7 +678,7 @@
   "discount": 5,
   "description": "Set de colgantes artesanales con cristales verdes en bruto, engarzados en cadenas doradas delicadas. Inspirados en la magia natural de los bosques, sus formas orgánicas y su brillo sutil aportan un toque místico a cualquier outfit.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante12.jpg",
+  "image": "images/products/bijouterie/colgante12.jpg",
   "tags": ["cristal", "verde", "natural", "elegante", "accesorio", "místico"]
 },
 {
@@ -689,7 +689,7 @@
   "discount": 5,
   "description": "Set de dos colgantes con cadenas plateadas: uno con dije de sol y cristal violeta, otro con dije de luna creciente y cristal rosado. Representan el equilibrio entre energías opuestas—perfectos como amuletos personales o como regalo simbólico entre dos almas conectadas.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante13.jpg",
+  "image": "images/products/bijouterie/colgante13.jpg",
   "tags": ["accesorio", "sol", "luna", "cristal", "equilibrio", "elegante"]
 },
 {
@@ -700,7 +700,7 @@
   "discount":0,
   "description": "Colgante con cristal iridiscente de forma cónica, suspendido en cordón negro. Sus tonos arcoíris evocan energía, transformación y misterio. Una pieza llamativa que combina lo espiritual con lo estético.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante14.webp",
+  "image": "images/products/bijouterie/colgante14.webp",
   "tags": ["cristal", "místico", "arcoíris", "accesorio", "moderno", "energía"]
 },
 {
@@ -711,7 +711,7 @@
   "discount": 5,
   "description": "Set de siete colgantes con cristales facetados en tonos esmeralda, amatista y cuarzo claro. Engarzados en cadenas doradas, evocan la energía de la alquimia natural y la belleza mística de los elementos. Ideales para expresar estilo con espiritualidad.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante15.png",
+  "image": "images/products/bijouterie/colgante15.png",
   "tags": ["cristal", "dorado", "místico", "elegante", "accesorio", "alquimia"]
 },
 {"para ver": "--------------------------------------------------------------                     PARA MODIFICAR - REPETIDO                -----------------------------------------------------------"},
@@ -723,7 +723,7 @@
   "discount": 5,
   "description": "Cinco colgantes únicos, cada uno representando una energía distinta: turquesa para la comunicación, opalino para la intuición, negro para la protección, violeta para la transformación y cristal claro para la claridad mental. Montados sobre cadenas plateadas, son el conjunto ideal para expresar tu esencia mística.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante16.webp",
+  "image": "images/products/bijouterie/colgante16.webp",
   "tags": ["cristal", "elementos", "energía", "accesorio", "místico", "elegante"]
 },
 {"para ver": "--------------------------------------------------------------                     PARA MODIFICAR - REPETIDO                -----------------------------------------------------------"},
@@ -735,7 +735,7 @@
   "discount": 5,
   "description": "Colgante artesanal con piedra verde en forma de gota, enmarcada en estructura plateada. Representa la conexión con la naturaleza y la frescura emocional. Ideal para quienes buscan armonía interior con un estilo elegante y sencillo.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante16.webp",
+  "image": "images/products/bijouterie/colgante16.webp",
   "tags": ["verde", "cristal", "natural", "armonía", "elegante", "accesorio"]
 },
 {
@@ -746,7 +746,7 @@
   "discount": 5,
   "description": "Set de colgantes con piedras de cuarzo rosa en bruto, suspendidas en cadenas plateadas. Conocido como la piedra del amor y la paz interior, cada pieza irradia suavidad y conexión emocional. Un accesorio delicado para quienes buscan armonía en su estilo.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante17.jpg",
+  "image": "images/products/bijouterie/colgante17.jpg",
   "tags": ["cuarzo rosa", "accesorio", "armonía", "místico", "elegante", "energía"]
 },
 {
@@ -757,7 +757,7 @@
   "discount": 5,
   "description": "Trío de colgantes con cristales transparentes en bruto, envueltos en espirales de alambre plateado y colgados en cadenas elegantes. Cada pieza representa una energía sutil y natural: claridad, sanación y conexión. Ideales para quienes valoran la estética y el poder de los cristales.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante18.jpeg",
+  "image": "images/products/bijouterie/colgante18.jpeg",
   "tags": ["cuarzo", "cristal", "energía", "místico", "natural", "elegante"]
 },
 {
@@ -768,7 +768,7 @@
   "discount": 5,
   "description": "Set de colgantes con cristales iridiscentes metálicos, en tonos vibrantes que recuerdan a las auroras boreales. Montados en capsulas plateadas, cada pieza irradia energía cósmica y estilo único. Perfectos para quienes aman el brillo de lo místico con un toque moderno.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante19.jpg",
+  "image": "images/products/bijouterie/colgante19.jpg",
   "tags": ["iridiscente", "cristal", "energía", "accesorio", "moderno", "místico"]
 },
 {
@@ -779,7 +779,7 @@
   "discount": 5,
   "description": "Cinco colgantes artesanales con cristales verdes en bruto, engarzados en cadenas plateadas. Cada pieza simboliza una conexión con la fuerza de la naturaleza y la protección energética. Ideal para quienes buscan estilo con presencia y equilibrio interior.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante20.jpg",
+  "image": "images/products/bijouterie/colgante20.jpg",
   "tags": ["verde", "cristal", "energía", "accesorio", "místico", "natural"]
 },
 {
@@ -790,7 +790,7 @@
   "discount": 5,
   "description": "Cinco colgantes con piedras naturales talladas en forma de gota, cada una con su propio color y energía: luz dorada, tierra profunda, claridad cristalina, azul introspectivo y esencia luminosa. Un conjunto armonioso que expresa emociones con elegancia.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante21.png",
+  "image": "images/products/bijouterie/colgante21.png",
   "tags": ["cristal", "armonía", "elegante", "natural", "energía", "accesorio"]
 },
 {
@@ -801,7 +801,7 @@
   "discount": 5,
   "description": "Seis colgantes únicos con cristales de tonos vibrantes (rosado, violeta, celeste, azul oscuro, marrón y blanco), cada uno trabajado con detalles en alambre plateado y montados sobre cadenas esféricas. Inspirados en la energía solar y la diversidad emocional, este set transmite brillo, presencia y equilibrio interior.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante22.webp",
+  "image": "images/products/bijouterie/colgante22.webp",
   "tags": ["cristal", "color", "místico", "elegante", "energía", "accesorio"]
 },
 {
@@ -812,7 +812,7 @@
   "discount": 5,
   "description": "Trío de colgantes con diseños únicos y piedras vibrantes. Cada pieza representa un elemento: verde para la tierra, rosa para el corazón y morado para el espíritu. Rematados con lágrimas púrpuras y detalles plateados, estos talismanes son perfectos para canalizar estilo y energía.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante23.png",
+  "image": "images/products/bijouterie/colgante23.png",
   "tags": ["talisman", "cristal", "energía", "místico", "color", "accesorio"]
 },
 {
@@ -823,7 +823,7 @@
   "discount": 5,
   "description": "Colgante en forma de Hamsa, símbolo de protección, abundancia y fuerza espiritual. Con detalles dorados y azules sobre cadena con cuentas, su diseño combina tradición mística con elegancia artesanal. Acompañado por piedras naturales, es un amuleto poderoso y lleno de significado.",
   "stock": 10,
-  "image": "/images/products/bijouterie/colgante24.jpg",
+  "image": "images/products/bijouterie/colgante24.jpg",
   "tags": ["hamsa", "protección", "energía", "místico", "accesorio", "espiritual"]
 },
 {
@@ -834,7 +834,7 @@
     "discount": 10,
     "description": "Figura de Buda meditativo sobre base negra con fuente de agua. Ideal para crear un rincón de serenidad y silencio.",
     "stock": 20,
-    "image": "/images/products/fuentes/buda1.jpeg",
+    "image": "images/products/fuentes/buda1.jpeg",
     "tags": ["cascada", "fuente", "buda", "piedra", "decoración", "feng shui"]
     },
     {
@@ -845,7 +845,7 @@
     "discount": 5,
     "description": "Estatua en tonos piedra clara con Buda en gesto de enseñanza. Transmite sabiduría y armonía.",
     "stock": 10,
-    "image": "/images/products/fuentes/buda2.png",
+    "image": "images/products/fuentes/buda2.png",
     "tags": ["buda", "piedra", "sabiduría", "armonía", "meditación"]
     },
     {
@@ -856,7 +856,7 @@
     "discount": 0,
     "description": "Buda sentado en posición de loto con detalles dorados y verdes. Una pieza vibrante que irradia calma y energía positiva.",
     "stock": 12,
-    "image": "/images/products/fuentes/buda3.jpeg",
+    "image": "images/products/fuentes/buda3.jpeg",
     "tags": ["buda", "dorado", "verde", "espiritual", "zen"]
     },
     {
@@ -867,7 +867,7 @@
     "discount": 0,
     "description": "Figura tallada en piedra blanca con forma ovalada. Perfecta para decoraciones limpias y espirituales.",
     "stock": 15,
-    "image": "/images/products/fuentes/buda4.png",
+    "image": "images/products/fuentes/buda4.png",
     "tags": ["buda", "ovalado", "piedra blanca", "minimalismo", "decoración"]
     },
     {
@@ -878,7 +878,7 @@
     "discount": 15,
     "description": "Combina una fuente de agua con Buda en relieve dorado sobre fondo de piedra. Ideal para atraer paz y prosperidad.",
     "stock": 8,
-    "image": "/images/products/fuentes/buda5.jpeg",
+    "image": "images/products/fuentes/buda5.jpeg",
     "tags": ["fuente", "buda", "dorado", "agua", "armonía", "feng shui"]
     },
     {
@@ -889,7 +889,7 @@
     "discount": 0,
     "description": "Escultura de Buda joven con acabado en piedra oscura, rodeado de naturaleza. Ideal para un rincón zen y fresco.",
     "stock": 18,
-    "image": "/images/products/fuentes/buda6.jpeg",
+    "image": "images/products/fuentes/buda6.jpeg",
     "tags": ["buda", "oscuro", "naturaleza", "juvenil", "zen"]
     },
     {
@@ -900,7 +900,7 @@
     "discount": 10,
     "description": "Figura en tono mármol con suave iluminación rosa. Invita al amor propio, la calma y la abundancia.",
     "stock": 9,
-    "image": "/images/products/fuentes/ganesha1.png",
+    "image": "images/products/fuentes/ganesha1.png",
     "tags": ["ganesha", "luz", "rosa", "abundancia", "amor propio"]
     },
     {
@@ -911,7 +911,7 @@
     "discount": 0,
     "description": "Escultura de Ganesha en meditación, tallada en piedra clara. Aporta claridad mental y protección.",
     "stock": 14,
-    "image": "/images/products/fuentes/ganesha2.png",
+    "image": "images/products/fuentes/ganesha2.png",
     "tags": ["ganesha", "protección", "blanco", "piedra", "meditación"]
     },
     {
@@ -922,7 +922,7 @@
     "discount": 0,
     "description": "Representación con estilo natural y base orgánica. Una pieza simbólica que transforma espacios.",
     "stock": 7,
-    "image": "/images/products/fuentes/ganesha3.png",
+    "image": "images/products/fuentes/ganesha3.png",
     "tags": ["ganesha", "rústico", "tallado", "natural", "hogar"]
     },
     {
@@ -933,7 +933,7 @@
     "discount": 5,
     "description": "Ganesha acompañado de esferas giratorias y flujo de agua. Activa la energía del hogar con movimiento y equilibrio.",
     "stock": 6,
-    "image": "/images/products/fuentes/ganesha4.webp",
+    "image": "images/products/fuentes/ganesha4.webp",
     "tags": ["ganesha", "fuente", "cascada", "esferas", "feng shui"]
     },
     {
@@ -944,7 +944,7 @@
     "discount": 0,
     "description": "Escultura de Ganesha sentado entre piedras y plantas. Ideal para un altar o espacio espiritual.",
     "stock": 11,
-    "image": "/images/products/fuentes/ganesha5.jpeg",
+    "image": "images/products/fuentes/ganesha5.jpeg",
     "tags": ["ganesha", "tronado", "naturaleza", "espiritual", "altar"]
     },
   {
@@ -955,7 +955,7 @@
     "discount": 5,
     "description": "Fuente con figura de Buda en flor de loto sobre base oscura. Ideal para atraer calma y conexión espiritual al ambiente.",
     "stock": 10,
-    "image": "/images/products/fuentes/fuente1.jpg",
+    "image": "images/products/fuentes/fuente1.jpg",
     "tags": ["fuente", "buda", "agua", "relax", "feng shui", "meditación"]
   },
   {
@@ -966,7 +966,7 @@
     "discount": 0,
     "description": "Diseño minimalista con piedras apiladas y flujo de agua constante. Una pieza que simboliza el equilibrio interior.",
     "stock": 12,
-    "image": "/images/products/fuentes/fuente2.png",
+    "image": "images/products/fuentes/fuente2.png",
     "tags": ["fuente", "zen", "minimalista", "piedras", "agua", "decoración"]
   },
   {
@@ -977,7 +977,7 @@
     "discount": 10,
     "description": "Fuente decorativa con cristales, luz LED y efecto cascada. Ideal para iluminar y armonizar cualquier rincón.",
     "stock": 6,
-    "image": "/images/products/fuentes/fuente3.gif",
+    "image": "images/products/fuentes/fuente3.gif",
     "tags": ["fuente", "cascada", "cristales", "luz", "LED", "energía"]
   },
   {
@@ -988,7 +988,7 @@
     "discount": 0,
     "description": "Fuente de bambú con figura de sapo de la fortuna. Excelente para atraer prosperidad y flujo económico.",
     "stock": 9,
-    "image": "/images/products/fuentes/fuente4.jpg",
+    "image": "images/products/fuentes/fuente4.jpg",
     "tags": ["fuente", "sapo", "bambú", "prosperidad", "feng shui", "decoración"]
   },
   {
@@ -999,7 +999,7 @@
     "discount": 5,
     "description": "Diseño lúdico con molino giratorio y cascada de agua. Ideal para ambientes que buscan dinamismo y buena energía.",
     "stock": 7,
-    "image": "/images/products/fuentes/fuente5.jpeg",
+    "image": "images/products/fuentes/fuente5.jpeg",
     "tags": ["fuente", "molino", "agua", "movimiento", "feng shui"]
   },
   {
@@ -1010,7 +1010,7 @@
     "discount": 0,
     "description": "Fuente rústica de piedras con caída de agua escalonada. Aporta un sonido relajante ideal para meditación.",
     "stock": 11,
-    "image": "/images/products/fuentes/fuente6.jpeg",
+    "image": "images/products/fuentes/fuente6.jpeg",
     "tags": ["fuente", "rústica", "piedras", "relax", "meditación"]
   },
   {
@@ -1021,7 +1021,7 @@
     "discount": 0,
     "description": "Fuente decorativa con diseño en espiral de cemento gris. Aporta modernidad y movimiento visual.",
     "stock": 10,
-    "image": "/images/products/fuentes/fuente7.jpeg",
+    "image": "images/products/fuentes/fuente7.jpeg",
     "tags": ["fuente", "espiral", "moderna", "minimalista", "decoración"]
   },
   {
@@ -1032,7 +1032,7 @@
     "discount": 0,
     "description": "Cascada de agua con diseño natural, piedras y plantas. Ideal para generar un entorno zen y relajante.",
     "stock": 8,
-    "image": "/images/products/fuentes/fuente8.jpeg",
+    "image": "images/products/fuentes/fuente8.jpeg",
     "tags": ["fuente", "zen", "natural", "agua", "piedras", "relax"]
   },
   {
@@ -1043,7 +1043,7 @@
     "discount": 10,
     "description": "Fuente decorativa con Buda y flor de loto iluminada. Representa sabiduría, pureza y renovación.",
     "stock": 5,
-    "image": "/images/products/fuentes/fuente9.jpeg",
+    "image": "images/products/fuentes/fuente9.jpeg",
     "tags": ["fuente", "buda", "loto", "iluminada", "espiritual"]
   },
   {
@@ -1054,7 +1054,7 @@
     "discount": 0,
     "description": "Elegante fuente de flor de loto en tonos plateados, con caída de agua sutil. Una pieza que eleva la energía del hogar.",
     "stock": 13,
-    "image": "/images/products/fuentes/fuente10.jpeg",
+    "image": "images/products/fuentes/fuente10.jpeg",
     "tags": ["fuente", "loto", "plata", "energía", "decoración", "agua"]
   },
   {
@@ -1065,7 +1065,7 @@
   "discount": 5,
   "description": "Atrapasueños artesanal con aro de madera, tejido de hilo blanco en diseño floral y colgantes de plumas suaves con cuentas decorativas. Ideal para ambientar espacios con un toque bohemio y transmitir serenidad. Perfecto para dormitorios o rincones meditativos.",
   "stock": 10,
-  "image": "/images/products/decoracion/atrapasuenos.webp",
+  "image": "images/products/decoracion/atrapasuenos.webp",
   "tags": ["bohemio", "natural", "plumas", "artesanal", "relax", "ambiente"]
 },
 {
@@ -1076,7 +1076,7 @@
   "discount": 5,
   "description": "Escultura de tres figuras de Buda representando el mensaje ancestral: 'no ver el mal, no oír el mal, no decir el mal'. Talladas con detalles cuidados y adornadas con cuentas, transmiten serenidad y sabiduría. Ideal para espacios contemplativos o como pieza central con significado espiritual.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda1.png",
+  "image": "images/products/decoracion/buda1.png",
   "tags": ["buda", "sabiduría", "espiritual", "zen", "reflexión", "decorativo"]
 },
 {
@@ -1087,7 +1087,7 @@
   "discount": 5,
   "description": "Escultura de tres figuras de Buda representando el mensaje ancestral: 'no ver el mal, no oír el mal, no decir el mal'. Talladas con detalles cuidados y adornadas con cuentas, transmiten serenidad y sabiduría. Ideal para espacios contemplativos o como pieza central con significado espiritual.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda2.png",
+  "image": "images/products/decoracion/buda2.png",
   "tags": ["buda", "sabiduría", "espiritual", "zen", "reflexión", "decorativo"]
 },
 {
@@ -1098,7 +1098,7 @@
   "discount": 5,
   "description": "Estatua de Buda sentado con gesto de enseñanza, acabados decorativos en el manto y expresión serena. Una pieza espiritual ideal para ambientar con sabiduría y armonía.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda3.png",
+  "image": "images/products/decoracion/buda3.png",
   "tags": ["buda", "meditación", "enseñanza", "decorativo", "espiritual", "armonía"]
 },
 {
@@ -1109,7 +1109,7 @@
   "discount": 5,
   "description": "Composición decorativa con figura de Buda sentado en postura meditativa junto a una lámpara de sal rosada. La piedra irradia luz cálida y la presencia del Buda aporta armonía espiritual. Ideal para espacios dedicados a la introspección, el bienestar y el equilibrio.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda4.png",
+  "image": "images/products/decoracion/buda4.png",
   "tags": ["buda", "sal rosada", "lámpara", "espiritual", "relax", "decorativo"]
 },
 {
@@ -1120,7 +1120,7 @@
   "discount": 5,
   "description": "Composición decorativa con estatua de Buda en postura meditativa y lámpara de sal rosada. La luz cálida que emite junto al símbolo espiritual convierte esta pieza en una fuente de armonía para cualquier espacio.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda5.png",
+  "image": "images/products/decoracion/buda5.png",
   "tags": ["buda", "lámpara", "sal rosada", "energía", "decorativo", "espiritual"]
 },
 {
@@ -1131,7 +1131,7 @@
   "discount": 5,
   "description": "Estatua decorativa de Buda en postura meditativa, con respaldo tallado, base con cristales rosados y función de iluminación. Una pieza que transmite calma, sabiduría y energía cálida para espacios contemplativos.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda6.png",
+  "image": "images/products/decoracion/buda6.png",
   "tags": ["buda", "lámpara", "cristales", "espiritual", "decorativo", "energía"]
 },
 {
@@ -1142,7 +1142,7 @@
   "discount": 5,
   "description": "Conjunto de cuatro figuras decorativas de monjes, cada una en postura distinta, con acabados artesanales y túnicas detalladas. Simbolizan serenidad, oración, sabiduría y alegría. Perfectas para ambientar con espiritualidad, armonía y estilo zen.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda7.png",
+  "image": "images/products/decoracion/buda7.png",
   "tags": ["monje", "zen", "espiritual", "decorativo", "armonía", "sabiduría"]
 },
 {
@@ -1153,7 +1153,7 @@
   "discount": 5,
   "description": "Conjunto de tres figuras decorativas de Buda en distintas posturas meditativas. Acabados artesanales en tonos suaves y detalles texturizados que aportan calma y espiritualidad al ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/buda8.png",
+  "image": "images/products/decoracion/buda8.png",
   "tags": ["buda", "meditación", "zen", "espiritual", "decorativo", "armonía"]
 },
 {
@@ -1164,7 +1164,7 @@
   "discount": 5,
   "description": "Set de tres cuadros decorativos con ilustraciones espirituales: figura meditativa, elefante adornado y mano con ojo central. Diseños cargados de simbolismo que transmiten calma, protección y sabiduría. Ideales para ambientar espacios con energía elevada y estilo personal.",
   "stock": 10,
-  "image": "/images/products/decoracion/cuadros1.png",
+  "image": "images/products/decoracion/cuadros1.png",
   "tags": ["cuadros", "espiritual", "elefante", "meditación", "decorativo", "protección"]
 },
 {
@@ -1175,7 +1175,7 @@
   "discount": 5,
   "description": "Lámpara colgante artesanal con diseño de mosaico en tonos rosado, plateado y negro. Ideal para aportar luz cálida y estilo bohemio a cualquier ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/colgante1.webp",
+  "image": "images/products/decoracion/colgante1.webp",
   "tags": ["lámpara", "mosaico", "bohemio", "colgante", "decorativo", "artesanal"]
 },
 {
@@ -1186,7 +1186,7 @@
   "discount": 5,
   "description": "Lámpara colgante artesanal con diseño de mosaico en tonos tierra, negro y blanco. Su estructura metálica y forma ovalada la convierten en una pieza cálida y sofisticada para decorar con estilo bohemio o étnico.",
   "stock": 10,
-  "image": "/images/products/decoracion/colgante2.webp",
+  "image": "images/products/decoracion/colgante2.webp",
   "tags": ["lámpara", "mosaico", "colgante", "bohemio", "decorativo", "artesanal"]
 },
 {
@@ -1197,7 +1197,7 @@
   "discount": 5,
   "description": "Set de dos cuencos decorativos color marrón con detalles dorados, acompañados por mazo de madera. Ideales para ambientación meditativa y rituales sonoros.",
   "stock": 10,
-  "image": "/images/products/decoracion/cuencos1.webp",
+  "image": "images/products/decoracion/cuencos1.webp",
   "tags": ["cuenco", "decorativo", "ritual", "meditación", "espiritual"]
 },
 {
@@ -1208,7 +1208,7 @@
   "discount": 5,
   "description": "Set de dos cuencos decorativos rojo y negro con grabados, más mazo de madera. Perfectos para prácticas sonoras y decoración espiritual.",
   "stock": 10,
-  "image": "/images/products/decoracion/cuencos2.webp",
+  "image": "images/products/decoracion/cuencos2.webp",
   "tags": ["cuenco", "espiritual", "ritual", "sonido", "decorativo"]
 },
 {
@@ -1219,7 +1219,7 @@
   "discount": 5,
   "description": "Figura de dragón en acabado plateado con diseño detallado y postura dinámica. Símbolo tradicional de fuerza y protección.",
   "stock": 10,
-  "image": "/images/products/decoracion/dragon1.webp",
+  "image": "images/products/decoracion/dragon1.webp",
   "tags": ["dragón", "oriental", "decorativo", "protección", "energía"]
 },
 {
@@ -1230,7 +1230,7 @@
   "discount": 5,
   "description": "Cabeza de elefante en acabado metálico con gancho decorativo. Aporta estilo étnico y simbolismo protector.",
   "stock": 10,
-  "image": "/images/products/decoracion/elefante2.webp",
+  "image": "images/products/decoracion/elefante2.webp",
   "tags": ["elefante", "metálico", "decorativo", "colgante", "protección"]
 },
 {
@@ -1241,7 +1241,7 @@
   "discount": 5,
   "description": "Figura decorativa en forma de cabeza de elefante tallado en madera con acabados artesanales. Ideal para colgar o ambientar con fuerza simbólica.",
   "stock": 10,
-  "image": "/images/products/decoracion/elefante3.webp",
+  "image": "images/products/decoracion/elefante3.webp",
   "tags": ["elefante", "madera", "tallado", "decorativo", "símbolo"]
 },
 {
@@ -1252,7 +1252,7 @@
   "discount": 5,
   "description": "Figura de elefante dorado con manta decorativa colorida. Representa elegancia, sabiduría y buena suerte.",
   "stock": 10,
-  "image": "/images/products/decoracion/elefante4.webp",
+  "image": "images/products/decoracion/elefante4.webp",
   "tags": ["elefante", "sabiduría", "decorativo", "oriental", "armonía"]
 },
 {
@@ -1263,7 +1263,7 @@
   "discount": 5,
   "description": "Figura de Ganesha en resina blanco piedra, en postura sentada con expresión serena. Ideal para rincones espirituales.",
   "stock": 10,
-  "image": "/images/products/decoracion/ganesha1.webp",
+  "image": "images/products/decoracion/ganesha1.webp",
   "tags": ["ganesha", "resina", "blanco", "espiritual", "decorativo"]
 },
 {
@@ -1274,7 +1274,7 @@
   "discount": 5,
   "description": "Figura decorativa de Ganesha en resina blanca con mandala tallado en la base. Aporta espiritualidad y armonía al espacio.",
   "stock": 10,
-  "image": "/images/products/decoracion/ganesha2.webp",
+  "image": "images/products/decoracion/ganesha2.webp",
   "tags": ["ganesha", "blanco", "resina", "espiritual", "decorativo"]
 },
 {
@@ -1285,7 +1285,7 @@
   "discount": 5,
   "description": "Estatuilla de Ganesha blanco imitación piedra. Representa sabiduría y aprendizaje.",
   "stock": 10,
-  "image": "/images/products/decoracion/ganesha3.png",
+  "image": "images/products/decoracion/ganesha3.png",
   "tags": ["ganesha", "sabiduría", "resina", "decorativo", "blanco"]
 },
 {
@@ -1296,7 +1296,7 @@
   "discount": 5,
   "description": "Lámpara decorativa tipo farol en color blanco, con llama simulada en su interior. Altura aproximada de 28cm. Ideal para ambientar con luz cálida sin fuego real.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara1.png",
+  "image": "images/products/decoracion/lampara1.png",
   "tags": ["farol", "lámpara", "blanco", "fuego simulado", "decorativo"]
 },
 {
@@ -1307,7 +1307,7 @@
   "discount": 5,
   "description": "Farol decorativo en color blanco con trabajo calado y cúpula metálica ornamentada. Pieza artesanal perfecta para sumar elegancia y luz tenue al ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara2.webp",
+  "image": "images/products/decoracion/lampara2.webp",
   "tags": ["farol", "calado", "blanco", "artesanal", "decorativo"]
 },
 {
@@ -1318,7 +1318,7 @@
   "discount": 5,
   "description": "Farol blanco decorativo con llama simulada, altura aproximada de 25cm. Ideal para decorar con luz cálida sin riesgos de fuego real.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara3.png",
+  "image": "images/products/decoracion/lampara3.png",
   "tags": ["farol", "lámpara", "blanco", "fuego simulado", "decorativo"]
 },
 {
@@ -1329,7 +1329,7 @@
   "discount": 5,
   "description": "Candelabro decorativo de metal plateado con diseño calado y vela incluida. Ideal para generar luz cálida y ambientar con elegancia.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara4.webp",
+  "image": "images/products/decoracion/lampara4.webp",
   "tags": ["candelabro", "vela", "plateado", "decorativo", "ambiente"]
 },
 {
@@ -1340,7 +1340,7 @@
   "discount": 5,
   "description": "Farol decorativo blanco con diseño calado y vidrios multicolores. Aporta luz tenue y estilo bohemio a cualquier rincón.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara5.webp",
+  "image": "images/products/decoracion/lampara5.webp",
   "tags": ["farol", "multicolor", "calado", "blanco", "decorativo"]
 },
 {
@@ -1351,7 +1351,7 @@
   "discount": 5,
   "description": "Set de tres portavelas cilíndricos en metal calado, de distintos tamaños, con diseño artesanal. Perfectos para iluminar con estilo relajado y cálido.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara6.webp",
+  "image": "images/products/decoracion/lampara6.webp",
   "tags": ["portavelas", "calado", "cilíndrico", "decorativo", "artesanal"]
 },
 {
@@ -1362,7 +1362,7 @@
   "discount": 5,
   "description": "Lámpara decorativa con piedra de sal rosada natural, diseño tipo farol. Altura aproximada de 28cm y diámetro de 13cm. Ideal para ambientar con luz cálida y armonía.",
   "stock": 10,
-  "image": "/images/products/decoracion/lamparasal1.png",
+  "image": "images/products/decoracion/lamparasal1.png",
   "tags": ["lámpara", "sal rosada", "farol", "decorativo", "energía"]
 },
 {
@@ -1373,7 +1373,7 @@
   "discount": 5,
   "description": "Lámpara decorativa con forma cónica y piedra de sal rosada natural. Altura de 15cm y diámetro de 20cm. Brinda luz suave y estética espiritual.",
   "stock": 10,
-  "image": "/images/products/decoracion/lamparasal2.png",
+  "image": "images/products/decoracion/lamparasal2.png",
   "tags": ["lámpara", "sal rosada", "cónica", "decorativo", "relax"]
 },
 {
@@ -1384,7 +1384,7 @@
   "discount": 5,
   "description": "Lámpara cilíndrica con base oscura y piedra de sal rosada. Altura aproximada de 21cm y diámetro de 13cm. Perfecta para crear ambientes cálidos y armoniosos.",
   "stock": 10,
-  "image": "/images/products/decoracion/lamparasal3.png",
+  "image": "images/products/decoracion/lamparasal3.png",
   "tags": ["lámpara", "sal rosada", "cilíndrica", "decorativo", "armonía"]
 },
 {
@@ -1395,7 +1395,7 @@
   "discount": 5,
   "description": "Farol decorativo negro con diseño calado artesanal y asa superior. Ideal para ambientar con luz tenue y estilo místico.",
   "stock": 10,
-  "image": "/images/products/decoracion/lampara7.webp",
+  "image": "images/products/decoracion/lampara7.webp",
   "tags": ["farol", "blanco", "calado", "decorativo", "bohemio"]
 },
 {
@@ -1406,7 +1406,7 @@
   "discount": 5,
   "description": "Conjunto decorativo de dos lechuzas artesanales en acabado claro, con textura tallada. Aportan un toque de ternura y naturaleza al ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/lechuzas1.png",
+  "image": "images/products/decoracion/lechuzas1.png",
   "tags": ["lechuza", "decorativo", "rústico", "animal", "artesanal"]
 },
 {
@@ -1417,7 +1417,7 @@
   "discount": 5,
   "description": "Set de dos leones decorativos en piedra tallada con detalles orientales. Simbolizan protección, fuerza y nobleza estética.",
   "stock": 10,
-  "image": "/images/products/decoracion/leones1.png",
+  "image": "images/products/decoracion/leones1.png",
   "tags": ["león", "guardianes", "oriental", "piedra", "decorativo"]
 },
 {
@@ -1428,7 +1428,7 @@
   "discount": 5,
   "description": "Conjunto de dos figuras decorativas de leones en cerámica blanca con diseño ornamental. Simbolizan protección, fuerza y equilibrio para el hogar.",
   "stock": 10,
-  "image": "/images/products/decoracion/leones2.webp",
+  "image": "images/products/decoracion/leones2.webp",
   "tags": ["león", "guardianes", "blanco", "decorativo", "protección", "cerámica"]
 },
 {
@@ -1439,7 +1439,7 @@
   "discount": 5,
   "description": "Figura mural en forma de mano Hamsa con diseño tallado y ojo central. Ideal como pieza de protección energética y estilo espiritual.",
   "stock": 10,
-  "image": "/images/products/decoracion/manocama.jpg",
+  "image": "images/products/decoracion/manocama.jpg",
   "tags": ["hamsa", "ojo", "decorativo", "protección", "energía", "pared"]
 },
 {
@@ -1450,7 +1450,7 @@
   "discount": 5,
   "description": "Decoración mural en forma de mano Hamsa con espejo central y campanas colgantes. Aporta un toque místico, sonoro y protector al ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/manocampanas.jpg",
+  "image": "images/products/decoracion/manocampanas.jpg",
   "tags": ["hamsa", "campanas", "espejo", "decorativo", "protección", "pared"]
 },
 {
@@ -1461,7 +1461,7 @@
   "discount": 5,
   "description": "Figura mural en forma de mano Hamsa color dorado con diseño ornamental tallado. Ideal para aportar protección energética y elegancia espiritual.",
   "stock": 10,
-  "image": "/images/products/decoracion/manocomoda.jpg",
+  "image": "images/products/decoracion/manocomoda.jpg",
   "tags": ["hamsa", "dorado", "decorativo", "protección", "energía", "pared"]
 },
 {
@@ -1472,7 +1472,7 @@
   "discount": 5,
   "description": "Decoración mural en forma de Hamsa tejida con hilos, cuentas y borlas colgantes. Un símbolo espiritual con textura cálida y bohemia.",
   "stock": 10,
-  "image": "/images/products/decoracion/manoenhilos.jpg",
+  "image": "images/products/decoracion/manoenhilos.jpg",
   "tags": ["hamsa", "textil", "bohemio", "decorativo", "cuentas", "pared"]
 },
 {
@@ -1483,7 +1483,7 @@
   "discount": 5,
   "description": "Mano Hamsa mural en tono blanco con diseño calado. Transmite serenidad y protección sutil en cualquier ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/manoliving.jpg",
+  "image": "images/products/decoracion/manoliving.jpg",
   "tags": ["hamsa", "blanco", "calado", "espiritual", "decorativo", "pared"]
 },
 {
@@ -1494,7 +1494,7 @@
   "discount": 5,
   "description": "Decoración mural en forma de mano Hamsa negra, con diseño moderno en material liviano. Ideal para dar un toque espiritual y contemporáneo a cualquier ambiente.",
   "stock": 10,
-  "image": "/images/products/decoracion/manooficina.jpg",
+  "image": "images/products/decoracion/manooficina.jpg",
   "tags": ["hamsa", "negra", "moderno", "espiritual", "decorativo", "pared"]
 },
 {
@@ -1505,7 +1505,7 @@
   "discount": 5,
   "description": "Conjunto de tres velas flotantes en forma de flor de loto, color blanco. Diseñadas para flotar en agua y generar luz suave en ambientes relajantes o ceremoniales.",
   "stock": 10,
-  "image": "/images/products/decoracion/velas1.webp",
+  "image": "images/products/decoracion/velas1.webp",
   "tags": ["vela", "flotante", "loto", "relax", "decorativo", "energía"]
 },
 {
@@ -1516,7 +1516,7 @@
   "discount": 5,
   "description": "Conjunto decorativo de ágatas dispuestas en filas por color. Incluye piezas en tonos azul, rosa, verde, blanco y amarillo. Perfecto para exhibición cromática o uso artesanal.",
   "stock": 10,
-  "image": "/images/products/piedras/agata1.jpg",
+  "image": "images/products/piedras/agata1.jpg",
   "tags": ["ágata", "multicolor", "piedra", "decorativo", "colección"]
 },
 {
@@ -1527,7 +1527,7 @@
   "discount": 5,
   "description": "Set de ágatas pequeñas mezcladas en tonos vivos como violeta, azul, verde, rosa y naranja. Ideales para decoración energética o detalles artesanales.",
   "stock": 10,
-  "image": "/images/products/piedras/agata2.webp",
+  "image": "images/products/piedras/agata2.webp",
   "tags": ["ágata", "colores", "piedras", "decorativo", "energía"]
 },
 {
@@ -1538,7 +1538,7 @@
   "discount": 5,
   "description": "Colección de ágatas pulidas en tonos cálidos y fríos, dispuestas sobre superficie de madera. Una propuesta decorativa con aire mineral y textura visual.",
   "stock": 10,
-  "image": "/images/products/piedras/agata3.jpg",
+  "image": "images/products/piedras/agata3.jpg",
   "tags": ["ágata", "pulida", "minerales", "madera", "decorativo"]
 },
   {
@@ -1549,7 +1549,7 @@
     "discount": 0,
     "description": "Piedras ágata pulidas, ideales para atraer equilibrio emocional y fortalecer la energía interior. Sus colores vibrantes la convierten en una gema muy apreciada para armonizar espacios.",
     "stock": 20,
-    "image": "/images/products/piedras/agata4.jpg",
+    "image": "images/products/piedras/agata4.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1569,7 +1569,7 @@
     "discount": 0,
     "description": "Variedad de ágatas con formas y colores diversos. Perfectas para decoración, reiki o llevar en el bolsillo como piedra de poder.",
     "stock": 20,
-    "image": "/images/products/piedras/agata1.webp",
+    "image": "images/products/piedras/agata1.webp",
     "tags": [
       "cristal",
       "piedra",
@@ -1588,7 +1588,7 @@
     "discount": 0,
     "description": "Selección de ágatas en tonos cálidos, con vetas naturales. Ayudan a calmar la mente y conectar con la tierra.",
     "stock": 20,
-    "image": "/images/products/piedras/agata2.jpg",
+    "image": "images/products/piedras/agata2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1607,7 +1607,7 @@
     "discount": 0,
     "description": "Gemas ágata rodadas, ideales para absorber energías negativas y devolver equilibrio mental.",
     "stock": 20,
-    "image": "/images/products/piedras/agata3.jpg",
+    "image": "images/products/piedras/agata3.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1627,7 +1627,7 @@
     "discount": 0,
     "description": "Cristal de aguamarina natural. Asociada con la tranquilidad, la comunicación y el fluir de las emociones. Piedra del chakra garganta.",
     "stock": 20,
-    "image": "/images/products/piedras/aguamarina.JPG",
+    "image": "images/products/piedras/aguamarina.JPG",
     "tags": [
       "cristal",
       "piedra",
@@ -1646,7 +1646,7 @@
     "discount": 0,
     "description": "Fragmento de aguamarina en estado natural. Se la relaciona con la claridad mental y el poder del mar.",
     "stock": 20,
-    "image": "/images/products/piedras/aguamarina2.jpg",
+    "image": "images/products/piedras/aguamarina2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1665,7 +1665,7 @@
     "discount": 0,
     "description": "Punta de amatista con cristales naturales. Utilizada para protección energética, purificación y conexión espiritual.",
     "stock": 20,
-    "image": "/images/products/piedras/amatista1.jpg",
+    "image": "images/products/piedras/amatista1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1684,7 +1684,7 @@
     "discount": 0,
     "description": "Piedra de amatista de alta calidad. Fomenta la meditación, la calma y la transmutación de energías negativas.",
     "stock": 20,
-    "image": "/images/products/piedras/amatista2.jpg",
+    "image": "images/products/piedras/amatista2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1703,7 +1703,7 @@
     "discount": 0,
     "description": "Cristal de hematita en bruto. Excelente para la protección energética y el anclaje a tierra.",
     "stock": 20,
-    "image": "/images/products/piedras/hematita1.jpg",
+    "image": "images/products/piedras/hematita1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1722,7 +1722,7 @@
     "discount": 0,
     "description": "Piedras de hematita brillantes, ideales para absorber energías densas y mejorar la concentración.",
     "stock": 20,
-    "image": "/images/products/piedras/hematita2.webp",
+    "image": "images/products/piedras/hematita2.webp",
     "tags": [
       "cristal",
       "piedra",
@@ -1741,7 +1741,7 @@
     "discount": 0,
     "description": "Piedra azul intensa con vetas doradas de pirita. Conectada con la sabiduría ancestral y el chakra del tercer ojo.",
     "stock": 20,
-    "image": "/images/products/piedras/lapislazuli1.jpg",
+    "image": "images/products/piedras/lapislazuli1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1760,7 +1760,7 @@
     "discount": 0,
     "description": "Cristales de lapislázuli ideal para meditación profunda y claridad mental. Potencia la intuición.",
     "stock": 20,
-    "image": "/images/products/piedras/lapizlazuli2.jpg",
+    "image": "images/products/piedras/lapizlazuli2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1779,7 +1779,7 @@
     "discount": 0,
     "description": "Piedra de poder transformador. Absorbe energías negativas y potencia la evolución emocional.",
     "stock": 20,
-    "image": "/images/products/piedras/malaquita1.jpg",
+    "image": "images/products/piedras/malaquita1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1798,7 +1798,7 @@
     "discount": 0,
     "description": "Fragmento de malaquita con formaciones únicas. Protege el aura y facilita la limpieza energética.",
     "stock": 20,
-    "image": "/images/products/piedras/malaquita2.jpg",
+    "image": "images/products/piedras/malaquita2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1817,7 +1817,7 @@
     "discount": 0,
     "description": "Con sus vetas circulares, esta malaquita inspira renovación interior y equilibrio físico.",
     "stock": 20,
-    "image": "/images/products/piedras/malaquita3.webp",
+    "image": "images/products/piedras/malaquita3.webp",
     "tags": [
       "cristal",
       "piedra",
@@ -1836,7 +1836,7 @@
     "discount": 0,
     "description": "Piedra volcánica protectora. Ideal para cortar lazos tóxicos, hacer introspección y limpiar el campo energético.",
     "stock": 20,
-    "image": "/images/products/piedras/obsidiana1.webp",
+    "image": "images/products/piedras/obsidiana1.webp",
     "tags": [
       "cristal",
       "piedra",
@@ -1855,7 +1855,7 @@
     "discount": 0,
     "description": "Obsidiana en forma de canto rodado. Profunda, poderosa y conectada al subconsciente.",
     "stock": 20,
-    "image": "/images/products/piedras/obsidiana2.jpg",
+    "image": "images/products/piedras/obsidiana2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1874,7 +1874,7 @@
     "discount": 0,
     "description": "Piedra protectora que ayuda a liberar el miedo y aportar coraje. Estimula la confianza y la fuerza interior.",
     "stock": 20,
-    "image": "/images/products/piedras/ojodetigre.jpg",
+    "image": "images/products/piedras/ojodetigre.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1893,7 +1893,7 @@
     "discount": 0,
     "description": "Cristal de ojo de tigre natural. Potente amuleto de abundancia y motivación.",
     "stock": 20,
-    "image": "/images/products/piedras/ojodetigre2.jpg",
+    "image": "images/products/piedras/ojodetigre2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1912,7 +1912,7 @@
     "discount": 0,
     "description": "Piedras de ópalo con reflejos multicolores. Conectan con la creatividad, la intuición y el amor propio.",
     "stock": 20,
-    "image": "/images/products/piedras/opalo1.jpg",
+    "image": "images/products/piedras/opalo1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1931,7 +1931,7 @@
     "discount": 0,
     "description": "Ópalos con destellos intensos. Activan la pasión, la espontaneidad y la expresión emocional.",
     "stock": 20,
-    "image": "/images/products/piedras/opalo2.jpg",
+    "image": "images/products/piedras/opalo2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1950,7 +1950,7 @@
     "discount": 0,
     "description": "Colección de ópalos en diferentes tonos. Estimulan la creatividad, la alegría y el renacimiento interior.",
     "stock": 20,
-    "image": "/images/products/piedras/opalo3.jpg",
+    "image": "images/products/piedras/opalo3.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1969,7 +1969,7 @@
     "discount": 0,
     "description": "Piedra en estado natural. Potente para limpieza energética y conexión espiritual.",
     "stock": 20,
-    "image": "/images/products/piedras/piedrabruta1.jpg",
+    "image": "images/products/piedras/piedrabruta1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -1988,7 +1988,7 @@
     "discount": 0,
     "description": "Cristal blanco opaco, ideal para meditación profunda y purificación del aura.",
     "stock": 20,
-    "image": "/images/products/piedras/piedrabruta2.jpg",
+    "image": "images/products/piedras/piedrabruta2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2007,7 +2007,7 @@
     "discount": 0,
     "description": "Cuarzo claro en forma de punta. Potencia la intención, la canalización y la protección.",
     "stock": 20,
-    "image": "/images/products/piedras/piedrabruta3.jpg",
+    "image": "images/products/piedras/piedrabruta3.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2026,7 +2026,7 @@
     "discount": 0,
     "description": "Cuarzo suave, ideal para sanar el corazón y cultivar el amor propio.",
     "stock": 20,
-    "image": "/images/products/piedras/piedrabruta4.jpg",
+    "image": "images/products/piedras/piedrabruta4.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2045,7 +2045,7 @@
     "discount": 0,
     "description": "Formación de cristales en bruto. Canalizadores de energía y armonizadores de espacios.",
     "stock": 20,
-    "image": "/images/products/piedras/piedrabruta6.jpg",
+    "image": "images/products/piedras/piedrabruta6.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2064,7 +2064,7 @@
     "discount": 0,
     "description": "Textura porosa y formato etéreo. Perfecto para altares y protección del hogar.",
     "stock": 20,
-    "image": "/images/products/piedras/piedrabruta7.jpg",
+    "image": "images/products/piedras/piedrabruta7.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2083,7 +2083,7 @@
     "discount": 0,
     "description": "Piedra lunar con reflejos mágicos. Favorece la intuición, los sueños lúcidos y la conexión con lo femenino.",
     "stock": 20,
-    "image": "/images/products/piedras/piedraluna1.jpg",
+    "image": "images/products/piedras/piedraluna1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2102,7 +2102,7 @@
     "discount": 0,
     "description": "Tonos perlados y blancos. Sintoniza con los ciclos naturales y la sensibilidad espiritual.",
     "stock": 20,
-    "image": "/images/products/piedras/piedraluna2.jpg",
+    "image": "images/products/piedras/piedraluna2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2121,7 +2121,7 @@
     "discount": 0,
     "description": "Cristales de color violeta. Altamente espiritual, asociada al amor divino y la protección áurica.",
     "stock": 20,
-    "image": "/images/products/piedras/sugilita1.jpg",
+    "image": "images/products/piedras/sugilita1.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2140,7 +2140,7 @@
     "discount": 0,
     "description": "Sugilita pulida, ideal para meditación, sanación energética y conexión con planos superiores.",
     "stock": 20,
-    "image": "/images/products/piedras/sugilita2.jpg",
+    "image": "images/products/piedras/sugilita2.jpg",
     "tags": [
       "cristal",
       "piedra",
@@ -2159,7 +2159,7 @@
     "discount": 0,
     "description": "Par de velas en forma de flor de loto, en tonos rosa y blanco. Ideal para rituales de amor, relajación y armonía del hogar.",
     "stock": 10,
-    "image": "/images/products/aromas/velas7.webp",
+    "image": "images/products/aromas/velas7.webp",
     "tags": ["vela", "flor", "loto", "amor", "ritual", "decorativa"]
   },
   {
@@ -2170,7 +2170,7 @@
     "discount": 10,
     "description": "Conjunto de velas blancas en envase de vidrio con tapa en forma de cúpula tallada. Perfectas para decoración refinada y aromaterapia suave.",
     "stock": 8,
-    "image": "/images/products/aromas/velas8.webp",
+    "image": "images/products/aromas/velas8.webp",
     "tags": ["vela", "vintage", "cúpula", "decorativa", "relax", "vidrio"]
   },
   {
@@ -2181,7 +2181,7 @@
     "discount": 0,
     "description": "Vela aromática en envase metálico dorado con tapa. Práctica y elegante, ideal para viajes o espacios pequeños.",
     "stock": 15,
-    "image": "/images/products/aromas/velas9.webp",
+    "image": "images/products/aromas/velas9.webp",
     "tags": ["vela", "lata", "dorado", "aromática", "portátil", "viaje"]
   },
   {
@@ -2192,7 +2192,7 @@
     "discount": 5,
     "description": "Vela perfumada blanca en vaso de vidrio acanalado. Estética minimalista para momentos de calma y bienestar.",
     "stock": 12,
-    "image": "/images/products/aromas/velas10.webp",
+    "image": "images/products/aromas/velas10.webp",
     "tags": ["vela", "blanca", "vidrio", "minimalista", "bienestar", "decoración"]
   },
   {
@@ -2203,7 +2203,7 @@
     "discount": 15,
     "description": "Set de dos faroles metálicos con velas LED cálidas. Perfectos para iluminar ambientes con un toque acogedor y seguro.",
     "stock": 6,
-    "image": "/images/products/aromas/velas11.webp",
+    "image": "images/products/aromas/velas11.webp",
     "tags": ["vela", "led", "farol", "luz cálida", "ambiente", "seguridad"]
   }
 ]
