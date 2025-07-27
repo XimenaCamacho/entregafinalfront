@@ -53,11 +53,11 @@ function renderProductCards(products) {
     article.classList.add("product-card");
 
     article.innerHTML = `
-      <a href="./productDetail.html?id=${product.id}">
+      <a href="productDetail.html?id=${product.id}">
         <img class="product-card__image" src="${product.image}" alt="${product.name}" />
       </a>
       <h3 class="product-card__name">${product.name}</h3>
-      <a class="product-card__button" href="./productDetail.html?id=${product.id}">
+      <a class="product-card__button" href="productDetail.html?id=${product.id}">
         Detalles
       </a>
     `;
